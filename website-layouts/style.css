@@ -1,0 +1,34 @@
+.header-nav{
+    background-color: #fceac6;
+}
+.main{
+    background-color: #fceac6;
+}
+ion-icon {
+    font-size: 64px;
+    color: yellow;
+  }
+  .middle{
+    /* height: 60vh; */
+  }
+  .card{
+    background-color: #f6f4e8;
+  }
+  .footer{
+    background-color: #f5e8be;
+  }
+  .last-footer{
+    background-color: #332e1d;
+  }
+  @media (max-width:550px){
+    .btn-dark{
+      margin-bottom: 20px;
+      margin-left: 0 !important;
+    }
+  }
+    @media (max-width:1400px){
+      .btn-dark{
+        margin-bottom: 20px;
+        margin-left: 0 !important;
+      }
+    }

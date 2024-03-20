@@ -1,0 +1,438 @@
+
+.background{
+    background-image: linear-gradient(rgba(217, 212, 212, 0.7),rgba(183, 179, 179, 0.9)),url(./image/heading-photo.png);
+   background-position: bottom;
+  background-size: cover;  
+  margin: 20px;
+
+}
+.background-radius{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+    border-radius: 35px;
+
+}
+
+
+
+  .heading{
+        font-weight: 800;
+  }
+  .heading-part-cart{
+    position: relative;
+    left: 85%;
+    top: 10%;
+    
+  }
+.menu{
+    width: 90%;
+    height: 7%;
+    margin: 10px;
+}
+.button{
+    width: 3rem;
+    height: 3rem;
+}
+.heart-carousel{
+    width: 27px;
+    height: 27px;
+    
+}
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+}
+.button-carousel{
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+    
+}
+.cart{
+    width: 2rem;
+    height: 3rem;
+}
+.cart1{
+    width: 2.8rem;
+    height: 3rem;
+}
+.cart-card{
+    position: absolute;
+    left:20rem ;
+}
+ /* .cart-absoulate{
+    position: absolute;
+    left: 29rem;
+    bottom: -31.6rem;
+ } */
+ 
+ .cart-1{
+    width: 190px;
+    height: 200px;
+ }
+.middle-portion-1-image img{
+    width: 300px;
+  
+}
+.header-part-icons img{
+    width:50px; 
+    height:50px;
+   
+}
+.middle-part-icons img{
+    width:35px; 
+    height:35px;
+   
+}
+
+/* .middle-part-3{
+    width: 330px;
+    height: 600px;
+} */
+.middle-part-3-heart img{
+    width: 15px;
+   
+}
+.middle-part-3-dish1{
+    width: 80%;
+   
+}
+.middle-part-3-heart {
+    width: 25px;
+    height:25px;
+    /* margin-right: 100px; */
+    
+}
+.card{
+    width: 210px;
+    height: 190px;
+}
+.card-info{
+    font-size: 10px;
+}
+.card-price{
+    font-size: 15px;
+}
+.card-2{
+
+    width: 200px;
+    height: 110px;
+}
+.middle-part-3-dish1-3{
+    width: 60%;
+}
+.cart1{
+    width: 2.8rem;
+    height: 3rem;
+}
+/* .middle-part-3-2{
+    width: 330px;
+    height: 600px;
+} */
+/* .middle-part-3-2-dish-4{
+    width: 350px;
+    height: 350px;
+    position:absolute;
+    right: 590px;
+} */
+.middle-part-3-2-card{
+    font-size: 20px;
+   
+}
+.arrow{
+    font-size: 30px;
+    margin-top: 15px;
+}
+/* .middle-part-3-2-button{
+    width: 150px;
+    position: absolute;
+    left: 700px;
+
+} */
+.badge{
+    border-radius: 100px;
+    width: 85px;
+    height: 85px;
+}
+.midle-part-2-badge-font{
+    
+    font-size: 20px;
+
+  }
+
+  
+.part-2-button{
+  margin-left: -150px;   
+  margin-bottom: 20px; 
+  font-size: 10px;
+}
+
+.part-1-width-button{
+    width: 300px;
+}
+.apple-image{
+    width: 200px
+    
+  }
+  .google-image{
+    width: 200px;
+  }
+@media(max-width:1500px){
+    .part-2-image{
+        margin-left: -3px;
+        width: 290px;
+    }
+    .part-2-button{
+        margin-left: -120px;   
+        margin-bottom: 20px; 
+        font-size: 15px;
+        width: 120px;
+        height: 40px;
+      }
+      .middle-part-3-2-card{
+        font-size: 20px;
+       
+    }
+    .middle-part-3-card-1-name{
+        font-size: 15px;
+       }
+       .card-info{
+        font-size: 7px; 
+    } 
+    .apple-image{
+        width: 130px
+        
+      }
+      .google-image{
+        width: 130px;
+      }
+      /* .middle-part-3{
+    width: 330px;
+    height: 550px;
+     } */
+     .menu{
+        width: 90%;
+        height: 9%;
+        margin: 10px;
+    }
+    /* .middle-part-3-2{
+    width: 320px;
+    height: 550px;
+    } */
+    .middle-part-3-heart {
+        width: 25px;
+        height:25px;
+        /* margin-right: 100px; */
+        
+    }
+    
+}
+ @media(max-width:780px){
+
+    .middle-part-1-card-2{
+     
+       margin-left: 40px;
+       }
+
+       .middle-part-1-card-1{
+           /* margin-left: 50px; */
+       } 
+       .part-2-image{
+           margin-left: -21px;
+       }
+       .card-price{
+        font-size: 13px;
+       
+    }
+    .middle-part-1{
+        margin-top: 30px;
+       
+    }
+    .card-div-price{
+        width: 80px;
+    }
+    .middle-part-3-card-1-name{
+        font-size: 10px;
+       }
+       .card-info{
+        font-size: 7px; 
+    } 
+    .badge{
+        border-radius: 100px;
+        width: 75px;
+        height: 75px;
+    }
+    .apple-image{
+        width: 170px
+        
+      }
+      .google-image{
+        width: 170px;
+      } 
+}
+@media (max-width:430px){
+    .image-heading img{
+     width: 100%;
+     height: 100%;
+   
+     
+    }
+    .option a{
+        
+     width: 20rem;
+     height: 20rem;
+    }
+    .main-card{
+     width: 20rem;
+    }
+
+    .heading-image img{
+     width:20rem;
+     padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    }
+    .heading-image{
+     display: flex;
+     justify-content: center;
+    }
+    .middle-portion-1-image img{
+     width: 200px;
+   text-align: center;
+  
+ }
+ .middle-part-icons img{
+     width:50px; 
+     height:50px;
+    
+ }
+ .middle-part-1-card-2{
+    margin-top: 120px;
+     margin-left: -400px;
+ } 
+ .card-info{
+    font-size: 6px; 
+}
+.apple-image{
+    width: 120px
+    
+  }
+  .google-image{
+    width: 120px;
+  } 
+
+}
+
+/* 320 */
+
+@media  (max-width:320px){
+    
+    .menu{
+        
+        height: 3rem;
+    }
+    .card-info{
+        font-size: 7px; 
+    } 
+    .card-group-left{
+       width: 8rem;
+       height: 10rem;
+    
+    }
+    .middle-portion-1-image img{
+        width: 200px;
+       float: inline-end;
+       padding-left: 50px;
+    }
+    .header-part-icons  img{
+        width:40px; 
+        height:40px;
+       
+    }
+    .middle-part-icons img{
+        width:30px; 
+        height:30px;
+       
+    }
+    .middle-part-1-card-1{
+        
+        margin-left: 10px;
+    }
+    .middle-part-1-card-2{
+        margin-top: 120px;
+    margin-left: 0px;
+ 
+    }
+     .part-2-button{
+        margin-left: -160px;   
+        margin-bottom: 20px; 
+        font-size: 8px;
+        width: 80px;
+        height: 30px;
+      }
+      .middle-part-3-2-card{
+        font-size: 20px;
+       
+    }
+    .part-2-image{
+        width: 240px;  
+        margin-left: -10.5px;
+    }
+    
+   .middle-part-3-card-1-name{
+    font-size: 10px;
+   }
+   .middle-part-3-heart {
+    width: 20px;
+    height:20px;
+   
+    /* margin-right: 100px; */
+    
+}
+
+.middle-part-3-card-1{
+    width: 50%;
+
+}
+.middle-part-3-dish1{
+    width: 90%;
+   
+}
+.card-price{
+    font-size: 10px;
+}
+.heading-part-cart{
+    position: relative;
+    left: 75%;
+    top: 10%;
+    
+  }
+  .middle-part-2-image img{
+    /* margin-right: 100px; */
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 220px;
+
+  }
+  .midle-part-2-badge-size{
+    width: 55px;
+    height: 55px;
+  }
+  .midle-part-2-badge-font{
+    
+    font-size: 10px;
+
+  }
+  .part-2-rate{
+    font-size: 10px;
+  }
+  .apple-image{
+    width: 100px
+    
+  }
+  .google-image{
+    width: 100px;
+  }
+
+ }
