@@ -1,245 +1,229 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-  <!-- FONT  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Rubik+Microbe&display=swap"
-    rel="stylesheet">
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+     <!-- FONT  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Rubik+Microbe&display=swap" rel="stylesheet">
 
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Birthstone&family=Fasthand&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Rubik+Microbe&display=swap"
-    rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Birthstone&family=Fasthand&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Rubik+Microbe&family=Tilt+Prism&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Fasthand&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Rubik+Microbe&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./style.css">
-</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Fasthand&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Rubik+Microbe&family=Tilt+Prism&display=swap" rel="stylesheet">
 
-<body>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
 
-  <div class="container ">
+    <div class="container ">
+        
+       <div class="container backgound-yellow">
+        <nav class="navbar ">
+              <a class="navbar-brand" href="#">
+                <i class="ri-restaurant-line"></i>
+               <span class="company-name">
+                F00D4Y0U
+               </span>
+              </a>
 
-    <div class="container backgound-yellow">
-      <nav class="navbar ">
-        <a class="navbar-brand" href="#">
-          <i class="ri-restaurant-line"></i>
-          <span class="company-name">
-            F00D4Y0U
-          </span>
-        </a>
-
-        <div class="ms-auto company-contact-no text-end">
-          <div class="company-contact-no-name">EXPRESS DELIVERY</div>
-          <div>1800 258 888</div>
-        </div>
-        <div class="heading-phone">
-          <i class="ri-smartphone-line"></i>
+              <div class="ms-auto company-contact-no text-end">
+                <div class="company-contact-no-name">EXPRESS DELIVERY</div>
+                <div>1800 258 888</div>
+              </div>
+              <div class="heading-phone">
+                <i class="ri-smartphone-line"></i>
+              </div>
+            
+          </nav>
         </div>
 
-      </nav>
-    </div>
+         <div class="container backgound-yellow">
+            <div class="row ">
+              <nav class="navbar navbar-expand-lg menu">
+                <div class="container ">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse menu-bar mb-4" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link me-4" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-4" href="#">MENU</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link me-4" href="#">OUR STORY</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+         </div>
+       
+       <!-- middle-1  -->
+         <div class="container backgound-yellow pb-5">
 
-    <div class="container backgound-yellow">
-      <div class="row ">
-        <nav class="navbar navbar-expand-lg menu">
-          <div class="container ">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse menu-bar mb-4" id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link me-4" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#">MENU</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-4" href="#">OUR STORY</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT US</a>
-                </li>
-
-              </ul>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              
+              <div class="middle-1-left-part text-center mt-3">
+                <div class="middle-1-left-part-are">
+                    Are you Hungery?
+                </div>
+                <div class="middle-1-left-part-dont">
+                    DONT WAIT!
+                </div>
+                <div class="middle-1-left-part-let">
+                   <div>
+                    LET START TO ORDER FOOD NOW
+                    <hr >
+                   </div>
+                </div>
+                <div class="d-flex middle-1-left-part-this-monday ">
+                    <div class="pt-3 middle-1-left-part-this-monday-happy me-2">
+                        THEN MONDAY <br> HAPPY HOURS
+                    </div>
+                    <div class="middle-1-left-part-this-monday-one-plus-one">
+                        1+1=3
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark middle-1-button mt-3">ORDER NOW</button>
+            </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-md-5 ">
+              <img src="./image/dish1.png" alt="dish-1" class="middle-part-1-right-image">
             </div>
           </div>
-        </nav>
-      </div>
-    </div>
+         </div>
 
-    <!-- middle-1  -->
-    <div class="container backgound-yellow pb-5">
 
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 
-          <div class="middle-1-left-part text-center mt-3">
-            <div class="middle-1-left-part-are">
-              Are you Hungery?
+       <!-- middle-2  -->
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <div class="middle-2-heading mt-3">
+                    CHOOSE AND ENJOY
+                  </div>
+                  <div class="middle-2-details">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, aut vel! Reiciendis inventore officia, natus consectetur excepturi saepe laudantium, nihil delectus quidem rerum modi consequuntur, labore enim. Molestiae repellendus consequuntur incidunt.
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="middle-1-left-part-dont">
-              DONT WAIT!
+
+           <div class="container">
+            <div class="row yellow-strip">
+              <!-- <div class="yellow-strip"></div> -->
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 middle-2-image text-center">
+               <img src="./image/dish2.png" alt="dish-2">
+               
+               <div class="mt-5">
+                <h4>Lorem ipsum dolor</h4>
+                <div>
+                  Lorem ipsum dolor sit amet consectetur Enim, fuga.
+                </div><br>
+                <button type="button" class="btn middle-2-button ">ORDER NOW</button>
+               </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4    middle-2-image text-center">
+                <img src="./image/dish3.png" alt="dish-3">
+                <div class="mt-5">
+                  <h4>Lorem ipsum dolor</h4>
+                  <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </div><br>
+                  <button type="button" class="btn  middle-2-button ">ORDER NOW</button>
+                 </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  middle-2-image text-center">
+                <img src="./image/dish4.png" alt=" dish-4">
+                <div class="mt-5">
+                  <h4>Lorem ipsum dolor</h4>
+                  <div>
+                    Lorem ipsum dolor sit amet adipisicing elit fuga.
+                  </div><br>
+                  <button type="button" class="btn  middle-2-button ">ORDER NOW</button>
+                 </div>
+              </div>
             </div>
-            <div class="middle-1-left-part-let">
+           </div>
+
+
+             <!-- middle-2  -->
+           <div class="container">
+            <div class="row text-center middle-2">
               <div>
-                LET START TO ORDER FOOD NOW
-                <hr>
+                <strong class="middle-2-discover">
+                  DISCOVER
+                </strong>
+                <div class="middle-2-upcoming">
+                  UPCOMING EVENTS
+                </div>
+                <div class="middle-2-details">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus praesentium quaerat doloribus! Et modi doloremque suscipit ipsum molestias in hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </div>
               </div>
             </div>
-            <div class="d-flex middle-1-left-part-this-monday ">
-              <div class="pt-3 middle-1-left-part-this-monday-happy me-2">
-                THEN MONDAY <br> HAPPY HOURS
+           </div>
+
+       
+           <div class="container">
+            <div class="row middle-2 mt-5">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active p-5" data-bs-interval="10000">
+                    <img src="./image/pexels-ella-olsson-1640772.jpg" class="rounded mx-auto d-block" alt="dish-1">
+                    
+                  </div>
+                  <div class="carousel-item p-5" data-bs-interval="2000">
+                    <img src="./image/pexels-jane-doan-1099680.jpg" class="rounded mx-auto d-block " alt="dish-2">
+                    
+                  </div>
+                  <div class="carousel-item p-5">
+                    <img src="./image/plate-2802332_1920 (1).jpg" class="rounded mx-auto d-block  " alt="dish-3">
+                    
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="middle-1-left-part-this-monday-one-plus-one">
-                1+1=3
-              </div>
             </div>
-            <button type="button" class="btn btn-outline-dark middle-1-button mt-3">ORDER NOW</button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-md-5 ">
-          <img src="./image/dish1.png" alt="dish-1" class="middle-part-1-right-image">
-        </div>
-      </div>
-    </div>
+           </div>
 
-
-
-    <!-- middle-2  -->
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <div class="middle-2-heading mt-3">
-            CHOOSE AND ENJOY
-          </div>
-          <div class="middle-2-details">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, aut vel! Reiciendis inventore
-            officia, natus consectetur excepturi saepe laudantium, nihil delectus quidem rerum modi consequuntur, labore
-            enim. Molestiae repellendus consequuntur incidunt.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row yellow-strip">
-        <!-- <div class="yellow-strip"></div> -->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 middle-2-image text-center">
-          <img src="./image/dish2.png" alt="dish-2">
-
-          <div class="mt-5">
-            <h4>Lorem ipsum dolor</h4>
-            <div>
-              Lorem ipsum dolor sit amet consectetur Enim, fuga.
-            </div><br>
-            <button type="button" class="btn middle-2-button ">ORDER NOW</button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4    middle-2-image text-center">
-          <img src="./image/dish3.png" alt="dish-3">
-          <div class="mt-5">
-            <h4>Lorem ipsum dolor</h4>
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div><br>
-            <button type="button" class="btn  middle-2-button ">ORDER NOW</button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  middle-2-image text-center">
-          <img src="./image/dish4.png" alt=" dish-4">
-          <div class="mt-5">
-            <h4>Lorem ipsum dolor</h4>
-            <div>
-              Lorem ipsum dolor sit amet adipisicing elit fuga.
-            </div><br>
-            <button type="button" class="btn  middle-2-button ">ORDER NOW</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- middle-2  -->
-    <div class="container">
-      <div class="row text-center middle-2">
-        <div>
-          <strong class="middle-2-discover">
-            DISCOVER
-          </strong>
-          <div class="middle-2-upcoming">
-            UPCOMING EVENTS
-          </div>
-          <div class="middle-2-details">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus praesentium quaerat doloribus! Et modi
-            doloremque suscipit ipsum molestias in hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-      <div class="row middle-2 mt-5">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active p-5" data-bs-interval="10000">
-              <img src="./image/pexels-ella-olsson-1640772.jpg" class="rounded mx-auto d-block" alt="dish-1">
-
-            </div>
-            <div class="carousel-item p-5" data-bs-interval="2000">
-              <img src="./image/pexels-jane-doan-1099680.jpg" class="rounded mx-auto d-block " alt="dish-2">
-
-            </div>
-            <div class="carousel-item p-5">
-              <img src="./image/plate-2802332_1920 (1).jpg" class="rounded mx-auto d-block  " alt="dish-3">
-
-            </div>
-          </div>
-          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- end  -->
-    <!-- <div class="container">
+           <!-- end  -->
+           <div class="container">
             <div class="row mt-5 pb-5">
               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 end-image-1 mt-3 text-lg-end text-md-center ">
                 <img src="./image/curry-7249247_1920.jpg" alt="" >
@@ -259,13 +243,10 @@
                 </div>
               </div>
             </div>
-           </div> -->
+           </div>
 
 
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
-
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
