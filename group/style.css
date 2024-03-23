@@ -78,7 +78,7 @@
 
 
 
-@media (max-width:340px){
+@media (min-width:10px) and (max-width:340px){
 
 
     .main-1-image img{
@@ -92,24 +92,25 @@
     .main-2{
         width: 300px !important;
          height: 300px;
+         margin-left: -2px!important;
      }
      /* .main-3-four-col{
         width:365px ;
         height:130px;
       } */
       .main-3-card{
-        padding-left: -40px !important;
+        padding-left: 13px !important;
         margin-top: 10px;
       }
 }
 
 
 
-@media (max-width:580px){
+@media (min-width:320px) and (max-width:580px){
 
 
     .main-1-image img{
-       margin-left: -65px !important;
+       margin-left: -60px !important;
     }
 
     .main-1-heading{
@@ -119,24 +120,25 @@
     .main-2{
         width: 300px !important;
          height: 300px;
+        
      }
      /* .main-3-four-col{
         width:365px ;
         height:130px;
       } */
       .main-3-card{
-       
+        padding-left: 70px ;
         margin-top: 10px;
       }
       
 }
 
-@media (max-width:780px){
+@media (min-width:580px) and (max-width:780px){
 
 
-    /* .main-1-image img{
-       margin-left: -40px !important;
-    } */
+    .main-1-image img{
+       margin-left: -60px ;
+    }
 
     .main-1-heading{
         font-size: 40px;
@@ -144,17 +146,23 @@
     }
 
     .main-2{
-        width: 216px !important;
+        width: 215px !important;
          height: 300px;
      }
+     .main-2-heading{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 60px;
+       
+    }
      .main-2-know-1{
         margin-top: 115px;
     }
 
-    /* .main-3-four-col{
-        width:160px !important;
+    .main-3-four-col{
+        width:170px !important;
         height:130px;
-      } */
+      }
 
       .main-3-card{
         padding-left: 22px;
@@ -166,9 +174,9 @@
 @media (max-width:1024px){
 
 
-    /* .main-1-image img{
-       margin-left: -30px !important;
-    } */
+    .main-1-image img{
+       margin-left: -30px ;
+    }
 
     .main-1-heading{
         font-size: 40px;
@@ -176,7 +184,7 @@
     }
 
     .main-2{
-        width: 290px !important;
+        width: 290px ;
          height: 300px;
      }
      .main-3-four-col{
@@ -188,6 +196,7 @@
 @media (max-width:1440px){
 
 
+    
     /* .main-1-image img{
        margin-left: 70px;
     } */
@@ -195,6 +204,13 @@
     .main-1-heading{
         font-size: 40px;
         font-weight:800;
+    }
+
+    .main-2-heading{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 70px;
+       
     }
 
     /* .main-3-four-col{
