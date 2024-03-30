@@ -208,30 +208,36 @@
 .main-6-left-image {
 
   transform: perspective(600px) rotateY(20deg);
+  /* margin-left: 40px; */
   
 }
 .main-6-left-image::before {
   content: "";
   position: absolute;
   height: 73%;
-  width: 75%;
+  width: 65%;
   background-color: #f1ecff;
   border: 3px solid #d3c3ff;
   border-radius: 6px;
   z-index: -1;
   transform: rotateZ(-1deg);
   bottom: 1%;
+  left:20px;
   perspective: none;
+}
+.main-6-market{
+  width: 330px;
+  height: 300px;
 }
 .main-6-left-image-2 {
   position: relative;
-  top: -100px;
-  left: -70px;
+  top: -105px;
+  left: -50px;
 }
 .main-6-left-image-3 {
   position: relative;
   top: -100px;
-  left: 430px;
+  left: 400px;
 }
 /* .main-6-left-image-4{
     position: relative;
@@ -244,8 +250,16 @@
   color: #0c86ef;
   animation: bounce 2s linear infinite;
   position: relative;
-  top: -390px;
-  left: 415px;
+  top: -410px;
+  left: 405px;
+}
+.bt-learn{
+  color: black;
+  border: 1px solid black;
+}
+.bt-learn:hover{
+ color: white;
+   background-color: #794afe;
 }
 
 @keyframes bounce {
@@ -327,7 +341,7 @@
 
 .icon {
   padding: 8px;
-  color: green;
+  /* color: green; */
   min-width: 50px;
   text-align: center;
 }
@@ -549,7 +563,7 @@
   }
   .main-6-left-image {
     transform: perspective(800px) rotateY(20deg);
-    margin-left: 10%;
+    margin-left: 1%;
   }
   .main-6-left-image::before {
     content: "";
@@ -565,15 +579,20 @@
     left: 5%;
     perspective: none;
   }
+  .main-6-market{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+  }
   .main-6-left-image-2 {
     position: relative;
     top: -100px;
-    left: 5px;
+    left: -2px;
   }
   .main-6-left-image-3 {
     position: relative;
-    top: -110px;
-    left: 280px;
+    top: -100px;
+    left: 250px;
   }
 
   .facebook {
@@ -581,8 +600,8 @@
     color: #0c86ef;
     animation: bounce 2s linear infinite;
     position: relative;
-    top: -330px;
-    left: 260px;
+    top: -360px;
+    left: 240px;
   }
 
   @keyframes bounce {
@@ -825,8 +844,8 @@
     color: #0c86ef;
     animation: bounce 2s linear infinite;
     position: relative;
-    top: -330px;
-    left: 300px;
+    top: -350px;
+    left: 280px;
   }
 
   @keyframes bounce {
@@ -843,14 +862,14 @@
 
   .main-6-left-image-2 {
     position: relative;
-    top: -100px;
-    left: 5px;
+    top: -110px;
+    left: 20px;
   }
  
   .main-6-left-image-3 {
     position: relative;
-    top: -110px;
-    left: 310px;
+    top: -90px;
+    left: 300px;
   }
   .main-6-left-image {
     transform: perspective(800px) rotateY(20deg);
@@ -869,6 +888,11 @@
     bottom: 1%;
     left: 5%;
     perspective: none;
+  }
+  .main-6-market{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
   }
 
   /* main-7 */
@@ -1070,16 +1094,16 @@
     font-size: 20px;
   }
   .main-6-left-image {
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 10%;
-    transform: perspective(600px) rotateY(20deg);
+    transform: perspective(600px) rotateY(15deg);
   }
 
   .main-6-left-image::before {
     content: "";
     position: absolute;
     height: 73%;
-    width: 50%;
+    width: 60%;
     background-color: #f1ecff;
     border: 3px solid #d3c3ff;
     border-radius: 6px;
@@ -1088,15 +1112,20 @@
     bottom: 1%;
     perspective: none;
   }
+  .main-6-market{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+  }
   .main-6-left-image-2 {
     position: relative;
-    top: -110px;
-    left: 70px;
+    top: -140px;
+    left: 30px;
   }
   .main-6-left-image-3 {
     position: relative;
-    top: -100px;
-    left: 400px;
+    top: -90px;
+    left: 430px;
   }
   /* .main-6-left-image-4{
     position: relative;
@@ -1109,8 +1138,8 @@
     color: #0c86ef;
     animation: bounce 2s linear infinite;
     position: relative;
-    top: -330px;
-    left: 405px;
+    top: -420px;
+    left: 415px;
   }
 
   /* main-7  */
@@ -1317,7 +1346,7 @@
     font-size: 20px;
   }
   .main-6-left-image {
-    margin-left: 0%;
+    margin-left: 10%;
     transform: perspective(600px) rotateY(20deg);
   }
 
@@ -1325,7 +1354,7 @@
     content: "";
     position: absolute;
     height: 73%;
-    width: 100%;
+    width: 87%;
     background-color: #f1ecff;
     border: 3px solid #d3c3ff;
     border-radius: 6px;
@@ -1334,10 +1363,15 @@
     bottom: 1%;
     perspective: none;
   }
+  .main-6-market{
+    /* margin-top: 20px; */
+    width: 280px;
+    height: 300px;
+  }
   .main-6-left-image-2 {
     position: relative;
-    top: -100px;
-    left: 50px;
+    top: -125px;
+    left: 20px;
   }
   .main-6-left-image-3 {
     position: relative;
@@ -1355,7 +1389,7 @@
     color: #0c86ef;
     animation: bounce 2s linear infinite;
     position: relative;
-    top: -330px;
+    top: -400px;
     left: 375px;
   }
 
