@@ -1,0 +1,64 @@
+
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+.container{
+text-align: center;
+margin:200px 50px;
+}
+.default-btn{
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+text-transform: uppercase;
+min-width: 300px;
+display: inline-block;
+text-align: center;
+position: relative;
+line-height: 40px;
+padding: 10px 20px;
+background:#794afe ;
+color:#fff;
+transition: all 0.3s ease-out;
+margin: 30px;
+transform-origin: 50% 0;
+transform-style: preserve-3d;
+
+
+}
+.default-btn.redd{
+    background: #f20f63;
+
+}
+.default-btn.redd::before{
+    background: #f20f63;
+
+}
+
+.default-btn::before{
+
+    content: attr(btn-hover);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+    background: #9f7dff;
+    border-radius: 10px;
+    transform: rotateX(-90deg);
+    transform-origin: 50% 0;
+}
+
+
+.default-btn:hover{
+
+    transform: rotateX(90deg) translateY(-10px);
+}
