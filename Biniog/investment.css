@@ -1,0 +1,130 @@
+body{
+    background-color: #001232;
+}
+/* navbar  */
+.nav-background{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+}
+.nav-back{
+    background-color: #5406e0;
+}
+.nav-link:hover{
+  background-color:#874af0 ;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+
+}
+/* location  */
+.nav-background{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+}
+.back{
+    height: 15rem;
+}
+
+
+/* invest  */
+
+.invest-margin-top{
+    margin-top: 130px;
+
+}
+
+/* invest-part */
+
+.invest-part-back{
+    /* background: linear-gradient(#5406e0,rgb(135, 41, 226,0.8)); */
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px, rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+    width: 110px; 
+    height: 50px;
+
+}
+.invest-part-back:hover{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+   
+}
+/* daily weekly cards  */
+.card-10{
+    background-color: #032055;
+    transition: margin-top 0.8s;
+}
+
+.card-10:hover{
+    background-color: #032055;
+    margin-top: -2%;
+}
+
+.invest-card-10{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+
+}
+.deposite-btn{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);  
+}
+
+
+/* start-invest  */
+.start-invest-table{
+    width: 35px;
+}
+.smart-btn{
+    box-shadow: rgba(206, 210, 213, 0.3) 0px 1px 2px 0px, rgba(217, 227, 233, 0.15) 0px 2px 6px 2px;
+}
+.smart-btn:hover{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+
+}
+
+/* Latest Transaction  */
+.Latest-margin-top{
+    margin-top: 130px;
+
+}
+
+
+/* end  */
+
+.end{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+} 
+.end-margin-top{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+ .end-input{
+    width: 20rem; 
+    background-color: #9352e9;
+    border: none;
+    padding: 10px;
+  outline: none;
+    
+}
+.end-input::placeholder{
+    color: white;
+}
+.end-telegram{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    border: none;
+    position: absolute;
+    left: -40px;
+ top: 5px;
+}
+.end-dashed{
+    border-bottom:3.5px dashed #9352e9 ;
+}
+.end-profile{
+    transition: margin-left 1s;
+}
+.end-profile:hover{
+margin-left: 8px;
+}
+
+/* footer  */
+
+.footer-back{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2); 
+}
+
+
+
