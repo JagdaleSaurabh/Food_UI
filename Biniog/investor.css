@@ -35,7 +35,7 @@ body{
     /* margin-left: 200px; */
 }
 .our-top-caro-card{
-    width: 17rem;
+    width: 18rem;
     height: 21rem;
     background-color: #032055;
    
@@ -97,6 +97,94 @@ margin-left: 8px;
 .footer-back{
     background: linear-gradient(to bottom, #4A00E0, #8E2DE2); 
 }
+
+
+
+
+
+/* 320 11111111111111111111111111111111111111111111111111111111111111 */
+@media (min-width: 10px) and (max-width: 320px) { 
+
+
+    /* end  */
+    
+    .end-telegram{
+        background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+        border: none;
+        position: absolute;
+        left: 250px;
+     top: -40px;
+    }
+    
+    
+    /* footer-incons */
+    .footer-icons{
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    }
+    
+    
+    /* 576 222222222222222222222222222222222222222222222222222222222222222 */
+    @media (min-width: 321px) and (max-width: 576px) { 
+    
+       
+     /* footer-incons */
+    .footer-icons{
+        margin-top: 20px;
+    }
+    
+    /* about  */
+    .about-incon{
+        padding-top: 15px;
+    }
+    
+    
+    
+     }
+    
+    
+    /* 768 333333333333333333333333333333333333333333333333333333333333333 */
+    @media (min-width: 578px) and  (max-width:768px){ 
+    
+    
+     /* footer-incons */
+    .footer-icons{
+        margin-top: 20px;
+    }
+    /* about  */
+    .about-incon{
+        padding-top: 15px;
+    }
+    
+   
+    
+    }
+
+
+      /* 1024 444444444444444444444444444444444444444444444444444444444444 */
+      @media (min-width: 578px) and  (max-width:768px){ 
+    
+    
+        /* footer-incons */
+       .footer-icons{
+           margin-top: 20px;
+       }
+       /* about  */
+       .about-incon{
+           padding-top: 15px;
+       }
+       
+     
+       
+       }
+
+
+
+
 
 
 

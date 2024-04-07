@@ -30,7 +30,8 @@ body{
 /* contact  */
 .contact-back{
    
-    width: 45rem;
+    width: 59rem;
+
 }
 .contact-back-color{
     background-color: #032055;
@@ -39,12 +40,16 @@ body{
     margin-top: 6%;
    
 }
+.email-margin{
+    margin-left: 40px;
+}
+
 .user-name{
 
     background-color: #032055;
-    border: 3px solid  #244a91 ;
+    border: 2px solid  #244a91 ;
    outline: none;
-   width: 20rem;
+   width: 24rem;
 }
 .user-name::placeholder{
     color :white;
@@ -58,9 +63,9 @@ body{
 }
 .your-name{
     background-color: #032055;
-    border: 3px solid  #244a91 ;
+    border: 2px solid  #244a91 ;
    outline: none;
-
+ width: 50.5rem;
 
 }
 .your-name::placeholder{
@@ -76,6 +81,8 @@ body{
     background: linear-gradient(to top, #4A00E0, #8E2DE2);
     width: 16rem;
     height: 18rem;
+    position: absolute;
+    top: 36rem;
 }
 
 
@@ -125,4 +132,338 @@ margin-left: 8px;
 }
 
 
+
+/* 320 11111111111111111111111111111111111111111111111111111111111111 */
+@media (min-width: 10px) and (max-width: 320px) { 
+
+
+/* contact  */
+.contact-back{
+   
+    width: 18.5rem;
+}
+.contact-back-color{
+    background-color: #032055;
+}
+.contact-margin{
+    margin-top: 6%;
+   
+}
+.user{
+    margin-top: 10px;
+}
+.email-margin{
+    margin-left: 0px;
+}
+
+.user-name{
+
+    background-color: #032055;
+    border: 2px solid  #244a91 ;
+   outline: none;
+   width: 16rem;
+  
+}
+.user-name::placeholder{
+    color :white;
+}
+.contact-btn{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    width: 6rem;
+}
+.contact-btn:hover{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+}
+.your-name{
+    background-color: #032055;
+    border: 3px solid  #244a91 ;
+   outline: none;
+ width: 16rem;
+
+}
+.your-name::placeholder{
+    color :white;
+}
+.contact-information{
+    border-bottom: 3px solid white;
+}
+
+
+/* poster-right  */
+.poster-right{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+    width: 16rem;
+    height: 18rem;
+    position: static;
+    margin-top: 30px;
+ 
+}
+
+
+    /* end  */
+    
+    .end-telegram{
+        background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+        border: none;
+        position: absolute;
+        left: 250px;
+     top: -40px;
+    }
+    
+    
+    /* footer-incons */
+    .footer-icons{
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    }
+    
+    
+    /* 576 222222222222222222222222222222222222222222222222222222222222222 */
+    @media (min-width: 321px) and (max-width: 576px) { 
+    
+
+        
+/* contact  */
+.contact-back{
+   
+    width: 25rem;
+}
+.contact-back-color{
+    background-color: #032055;
+}
+.contact-margin{
+    margin-top: 6%;
+   
+}
+.user{
+    margin-top: 10px;
+}
+.email-margin{
+    margin-left: 00px;
+}
+
+.user-name{
+
+    background-color: #032055;
+    border: 2px solid  #244a91 ;
+   outline: none;
+   width: 22rem;
+  
+}
+.user-name::placeholder{
+    color :white;
+}
+.contact-btn{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    width: 6rem;
+}
+.contact-btn:hover{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+}
+.your-name{
+    background-color: #032055;
+    border: 3px solid  #244a91 ;
+   outline: none;
+ width: 22rem;
+
+}
+.your-name::placeholder{
+    color :white;
+}
+.contact-information{
+    border-bottom: 3px solid white;
+}
+
+
+/* poster-right  */
+.poster-right{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+    width: 16rem;
+    height: 18rem;
+    position: static;
+    margin-top: 30px;
+}
+      
+       
+     /* footer-incons */
+    .footer-icons{
+        margin-top: 20px;
+    }
+    
+    /* about  */
+    .about-incon{
+        padding-top: 15px;
+    }
+    
+    
+    
+     }
+    
+    
+ /* 768 333333333333333333333333333333333333333333333333333333333333333 */
+@media (min-width: 578px) and  (max-width:768px){ 
+    
+
+               
+/* contact  */
+.contact-back{
+   
+    width: 43rem;
+}
+.contact-back-color{
+    background-color: #032055;
+}
+.contact-margin{
+    margin-top: 6%;
+   
+}
+.user{
+    margin-top: 10px;
+}
+.email-margin{
+    margin-left: 0px;
+}
+
+.user-name{
+
+    background-color: #032055;
+    border: 2px solid  #244a91 ;
+   outline: none;
+   width: 40rem;
+  
+}
+.user-name::placeholder{
+    color :white;
+}
+.contact-btn{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    width: 6rem;
+}
+.contact-btn:hover{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+}
+.your-name{
+    background-color: #032055;
+    border: 3px solid  #244a91 ;
+   outline: none;
+ width: 40rem;
+
+}
+.your-name::placeholder{
+    color :white;
+}
+.contact-information{
+    border-bottom: 3px solid white;
+}
+
+
+/* poster-right  */
+.poster-right{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+    width: 16rem;
+    height: 18rem;
+    position: static;
+    margin-top: 30px;
+}
+      
+    
+     /* footer-incons */
+    .footer-icons{
+        margin-top: 20px;
+    }
+    /* about  */
+    .about-incon{
+        padding-top: 15px;
+    }
+    
+    
+    
+    }
+
+ 
+    
+ /* 1024 444444444444444444444444444444444444444444444*/
+ @media (min-width: 770px) and  (max-width:px){ 
+    
+
+   
+/* contact  */
+.contact-back{
+   
+    width: 43rem;
+
+}
+.contact-back-color{
+    background-color: #032055;
+}
+.contact-margin{
+    margin-top: 6%;
+   
+}
+.email-margin{
+    margin-left: 20px;
+}
+
+.user-name{
+
+    background-color: #032055;
+    border: 2px solid  #244a91 ;
+   outline: none;
+   width: 17rem;
+}
+.user-name::placeholder{
+    color :white;
+}
+.contact-btn{
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    width: 6rem;
+}
+.contact-btn:hover{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+}
+.your-name{
+    background-color: #032055;
+    border: 3px solid  #244a91 ;
+   outline: none;
+ width: 35rem;
+
+}
+.your-name::placeholder{
+    color :white;
+}
+.contact-information{
+    border-bottom: 3px solid white;
+}
+
+
+/* poster-right  */
+.poster-right{
+    background: linear-gradient(to top, #4A00E0, #8E2DE2);
+    width: 16rem;
+    height: 18rem;
+    position: absolute;
+    top: 36rem;
+}
+          
+        
+         /* footer-incons */
+        .footer-icons{
+            margin-top: 20px;
+        }
+        /* about  */
+        .about-incon{
+            padding-top: 15px;
+        }
+        
+        
+        
+        }
+    
+    
+    
+    
 

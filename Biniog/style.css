@@ -51,6 +51,8 @@ body{
 .submit-btn:hover{
     background-color:#7a38ec;
     color: white;
+    border: none;
+    outline: none;
 
 }
 /* cards  */
@@ -157,6 +159,7 @@ body{
 .card-10{
     background-color: #032055;
     transition: margin-top 0.8s;
+    
 }
 
 .card-10:hover{
@@ -1049,6 +1052,9 @@ margin-left: 8px;
     width: 20rem;
     margin-left: -30px;
     margin-top: 20px;
+}
+.why-icon{
+    width: 58rem;
 }
 
 
