@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style for the container */
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Style for the image */
+        .zoom-image {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover state (zoom effect) */
+        .image-container:hover .zoom-image {
+            transform: scale(1.1); /* Increase the scale to zoom in */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="./dish1.png" alt="Your Image" class="zoom-image">
+    </div>
+</body>
+</html>

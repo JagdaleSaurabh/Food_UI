@@ -20,6 +20,59 @@
 .button-clr:hover{
   background-color: #c0b1ef;
 }
+/* 
+.click-btn {
+  display: flex;
+  width: $button-width;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  line-height: 35px;
+  border: 1px solid;
+  border-radius: $border-radius;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+
+.btn-style900 {
+  $btn-color: rgba(221, 99, 149, 1);
+  $btn-hover-color: #dd2a73;
+  position: relative;
+  border-color: $btn-color;
+  color: rgba(221, 99, 149, 1);
+  transition-delay: 0.3s;
+  overflow: hidden;
+  &:hover {
+    transform: translateX(-0.3em);
+    border-color: $btn-hover-color;
+    color: rgba(221, 99, 149, 0);
+    transition-delay: 0s;
+    &::before {
+      opacity: 1;
+      transform: translateY(0);
+      transition-delay: 0.15s;
+    }
+  }
+  &::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    content: attr(data-hover);
+    color: $btn-color;
+    text-align: center;
+    transform: translateY(-60%);
+    transition: all 0.30s;
+    z-index: 1;
+  }
+} */
   /* content: 'Contact us'; */
   /* transform: rotateZ(100deg);
   transform-origin: 0% 50%; */
