@@ -1,0 +1,1151 @@
+.nav-heading-bg-image {
+    background-image: 
+      url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/inner-banner-about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 140px;
+  }
+  
+  /* navbar  */
+  
+  .main-logo {
+    width: 10rem;
+  }
+  .donations-btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+   
+  }
+  .donations-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .dropdown a{
+    color: white;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown a:hover{
+    color: white;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 1px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation-duration: 0.4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 30%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+
+  /* about  */
+  .three-card-margin-top{
+    margin-top: 100px;
+  }
+  .about{
+    margin-top: 100px;
+  }
+  .about-font{
+    font-size: 70px;
+  }
+  .thumb-icon{
+    font-size: 100px;
+    color:#cd2828 ;
+  }
+  .one{
+    font-size: 100px;
+    opacity: .030;
+    margin-left: 90px;
+  }
+  .card-1{
+    width: 100%;
+    /* height: 22rem; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  /* together we can  */
+
+  .together-margin-top{
+    margin-top: 100px;
+  }
+  .image-right img{
+    width: 610px;
+    height: 350px;
+   
+    /* width: 40rem; */
+  }
+  .image-right-2 img{
+   width: 280px;
+   height: 225px;
+   
+  }
+  .star{
+    color:#cd2828 ;
+  }
+  .together-right-heading{
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 30%;
+    font-weight: 600;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+  /* policies we offer  */
+  .policies-bg{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.6) 50%
+      ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/policy-bg-1-1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 120px;
+  }
+  .policies-heading{
+    font-size: 40px;
+  }
+.provide-heading{
+  font-size: 30px;
+}
+.text-primary{
+  font-size: 50px;
+}
+  .card-politaro,.card-politaro-2,.card-politrao-3{
+    background-color: whitesmoke;
+    position: relative;
+    border-bottom: 2px solid red;
+  }
+  .card-politaro:hover {
+    background-image: linear-gradient(
+        0deg,
+        rgb(17, 22, 95),
+        rgba(20, 26, 90, 0.703) 50%
+      ),
+      url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: white;
+  }
+  .card-politaro-2:hover{
+    background-image:linear-gradient(
+      0deg,
+      rgb(17, 22, 95),
+      rgba(20, 26, 90, 0.703) 50%
+    ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: white;
+  }
+  .card-politrao-3:hover{
+    background-image:linear-gradient(
+      0deg,
+      rgb(17, 22, 95),
+      rgba(20, 26, 90, 0.703) 50%
+    ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: white;
+  }
+  
+  .hr:before {
+    position: absolute;
+    content: '';
+    background-color: red;
+    width: 50px;
+    height: 4px;
+    top: 115px;
+    left: 80px;
+  
+}
+
+/* politaro-history  */
+.politaro-history{
+    margin-top: 100px;
+}
+.politaro-heading{
+    font-size: 55px;
+    font-weight: 600;
+}
+.margin-top-ele{
+    margin-top: 60px;
+}
+.image-1 img{
+   width: 35rem;
+}
+.newyork-margin-top{
+    margin-top: 60px;
+}
+.date-bg{
+    padding: 8px;
+    background-color:#f4f4f4;
+}
+.heading-clr{
+    color: #13509b;
+}
+.heading-clr:hover{
+   color: red;
+}
+
+/* party personals  */
+.party-bg{
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+.party-card-1{
+ background-color: white;
+ height: 100%;
+position: relative;
+}
+.party-card-1:hover{
+    background-color:#114f9a;
+    color: white;
+    height: 100%;
+}
+.party-card-1:hover .box-icon{
+
+  opacity: 1;
+}
+ .box-icon{
+ color: white;
+ position: absolute;
+ top: 48px;
+ left: 53px;
+ 
+ background-color: rgba(34, 34, 34, 0.7);
+width: 201px;
+height: 12.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+}
+.box-icon i:hover{
+  color: red;
+}
+
+
+/* contribute for us  */
+.contribute-bg {
+  background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/cta-bg-1-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 100px;
+}
+.donate-btn {
+  border-radius: 5px;
+  background-color: #0d60a6;
+  width: 11rem;
+  height: 3.5rem;
+  color: white;
+}
+.donate-btn:hover {
+  background-color: white;
+  color: black;
+}
+.become-btn {
+  border: 3px solid rgb(190, 186, 186);
+  border-radius: 5px;
+  background-color: black;
+  width: 16rem;
+  height: 3.5rem;
+  color: white;
+}
+.contribute-heading{
+  font-size: 30px;
+}
+.become-btn:hover {
+  background-color: white;
+  color: black;
+}
+.star-con {
+  font-size: 21px;
+}
+.star-cont {
+  font-size: 28px;
+}
+.stars {
+  display: inline-block;
+}
+
+/* politaro in news  */
+
+.politaro-margin-top {
+  margin-top: 50px;
+}
+.font-politaro-heading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.card-politaro,.card-politaro-2,.card-politrao-3{
+  background-color: whitesmoke;
+}
+.card-politaro:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgb(17, 22, 95),
+      rgba(20, 26, 90, 0.703) 50%
+    ),
+    url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+.news-heading{
+  font-size: 20px;
+}
+.card-politaro-2:hover{
+  background-image:linear-gradient(
+    0deg,
+    rgb(17, 22, 95),
+    rgba(20, 26, 90, 0.703) 50%
+  ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+.card-politrao-3:hover{
+  background-image:linear-gradient(
+    0deg,
+    rgb(17, 22, 95),
+    rgba(20, 26, 90, 0.703) 50%
+  ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+
+.arrow-po {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.arrow-po:hover {
+  background-color:red;
+  color: white;
+}
+
+/* company icons  */
+.company-icons-margin-top{
+  margin-top: 80px;
+}
+
+/* signup foe newsletter  */
+.signup-bg{
+  background-color: #114f9a;
+  margin-top: 130px;
+}
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 25rem;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 12rem;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $9.1k  */
+
+.politaro-footer-1{
+  background-color: #061a33;
+}
+.footer-1-logo {
+  width: 10rem;
+}
+
+
+/* footer-2  */
+
+.end{
+ background-color: #061a33;
+ border-top:5px solid #2b3c51;
+} 
+.footer-icons{
+  color:  #57697d;
+  font-size: 25px;
+  padding: 5px;
+}
+.footer-icons:hover{
+  color: white;
+}
+.end-margin-top{
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.end-dashed{
+  border-bottom:3.5px solid #2b3c51;
+}
+.end-profile{
+  transition: margin-left 0.3s;
+}
+
+.end-profile:hover{
+margin-left: 10px;
+color: red;
+}
+
+
+/* 320px    111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media (min-width:10px) and (max-width:320px){
+
+
+  /* about three card */
+  .three-card-margin-top{
+    margin-top: 80px;
+  }
+  .one{
+    font-size: 90px;
+    opacity: .030;
+    margin-left: 0px;
+  }
+
+   /* together we can  */
+
+   .together-margin-top{
+    margin-top: 100px;
+  }
+  .image-right img{
+    width: 100%;
+  
+   
+    /* width: 40rem; */
+  }
+  .image-right-2 img{
+   width: 100%;
+   height: 225px;
+   margin-top: 20px;
+   
+  }
+ .left-margin-top{
+  margin-top: 100px;
+ text-align: center;
+ }
+  .together-right-heading{
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .points{
+    text-align: start;
+  }
+
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 70%;
+    font-weight: 600;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  /* policies we offer  */
+ 
+ 
+  .card-politaro,.card-politaro-2,.card-politrao-3{
+    background-color: whitesmoke;
+    position: relative;
+    border-bottom: 2px solid red;
+    margin-top: 20px;
+  }
+
+  .provide-heading{
+    font-size: 16px;
+  }
+  .provide-text{
+    font-size: 10px;
+  }
+  .text-primary{
+    font-size: 30px;
+  }
+  
+  .hr:before {
+    position: absolute;
+    content: '';
+    background-color: red;
+    width: 40px;
+    height: 2px;
+    top: 90px;
+    left: 60px;
+  
+}
+/* politaro-history  */
+.image-1 img{
+ width: 100%;
+ margin-top: 20px;
+}
+
+/* party personals  */
+
+.margin-top-card{
+  margin-top: 20px;
+}
+.party-card-1 img{
+  width: 100%;
+}
+.party-card-name{
+  font-size: 13px;
+}
+.politaro-heading{
+  font-size: 35px;
+}
+.party-card-1:hover{
+  background-color:#114f9a;
+  color: white;
+  height: 100%;
+}
+.party-card-1:hover .box-icon{
+
+opacity: 1;
+}
+.box-icon{
+color: white;
+position: absolute;
+top: 48px;
+left: 49px;
+
+background-color: rgba(34, 34, 34, 0.7);
+width: 102px;
+height: 6.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+}
+.box-icon i:hover{
+color: red;
+}
+
+
+/* contribute  */
+.donate-btn {
+  border-radius: 5px;
+  background-color: #0d60a6;
+  width: 11rem;
+  height: 3.5rem;
+  color: white;
+
+}
+.contribute-heading{
+  font-size: 26.8px;
+}
+
+.become-btn {
+  border: 3px solid rgb(190, 186, 186);
+  border-radius: 5px;
+  background-color: black;
+  width: 14rem;
+  height: 3.5rem;
+  color: white;
+ margin-top: 20px;
+
+}
+
+/* .politaro news  */
+.news-heading{
+  font-size: 18px;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $ 9 */
+.politaro-center{
+ text-align: center;
+}
+
+/* footer-2  */
+
+.end-margin-top{
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+}
+
+/* 425px 222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+@media (min-width:321px) and (max-width:576px){
+
+   /* about three card */
+   .three-card-margin-top{
+    margin-top: 80px;
+  }
+  .one{
+    font-size: 90px;
+    opacity: .030;
+    margin-left: 40px;
+  }
+
+   /* together we can  */
+
+   .together-margin-top{
+    margin-top: 100px;
+  }
+  .image-right img{
+    width: 100%;
+  
+   
+    /* width: 40rem; */
+  }
+  .image-right-2 img{
+   width: 100%;
+   height: 225px;
+   margin-top: 20px;
+   
+  }
+ .left-margin-top{
+  margin-top: 100px;
+ text-align: center;
+ }
+  .together-right-heading{
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .points{
+    text-align: start;
+  }
+
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 70%;
+    font-weight: 600;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+    /* policies we offer  */
+ 
+ 
+    .card-politaro,.card-politaro-2,.card-politrao-3{
+      background-color: whitesmoke;
+      position: relative;
+      border-bottom: 2px solid red;
+      margin-top: 20px;
+    }
+  
+    .provide-heading{
+      font-size: 25px;
+    }
+    .provide-text{
+      font-size: 15px;
+    }
+    .text-primary{
+      font-size: 30px;
+    }
+    
+    .hr:before {
+      position: absolute;
+      content: '';
+      background-color: red;
+      width: 40px;
+      height: 2px;
+      top: 90px;
+      left: 60px;
+    
+  }
+  /* politaro-history  */
+.image-1 img{
+  width: 100%;
+  margin-top: 20px;
+ }
+ 
+/* party  */
+.margin-top-card{
+  margin-top: 20px;
+}
+.politaro-heading{
+  font-size: 35px;
+}
+
+/* contribute  */
+.donate-btn {
+  border-radius: 5px;
+  background-color: #0d60a6;
+  width: 11rem;
+  height: 3.5rem;
+  color: white;
+
+}
+.contribute-heading{
+  font-size: 35px;
+}
+
+.become-btn {
+  border: 3px solid rgb(190, 186, 186);
+  border-radius: 5px;
+  background-color: black;
+  width: 14rem;
+  height: 3.5rem;
+  color: white;
+ margin-top: 30px;
+
+}
+/* .politaro news  */
+.news-heading{
+  font-size: 24px;
+}
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+/* .politaro $ 9 */
+.politaro-center{
+  text-align: center;
+ }
+
+
+}
+
+/* 768 3333333333333333333333333333333333333333333333333333333 */
+@media (min-width:576px) and (max-width:770px){
+
+   /* about three card */
+   .three-card-margin-top{
+    margin-top: 80px;
+  }
+  .about-font{
+    font-size: 70px;
+  }
+  .thumb-icon{
+    font-size: 50px;
+    color:#cd2828 ;
+  }
+  .card-heading{
+    font-size: 25px;
+  }
+  .text-secondary{
+    font-size: 10px;
+  }
+  .one{
+    font-size: 50px;
+    opacity: .030;
+    margin-left: 15px;
+  }
+
+   /* together we can  */
+
+   .together-margin-top{
+    margin-top: 100px;
+  }
+  .image-right img{
+    width: 100%;
+  
+   
+    /* width: 40rem; */
+  }
+  .image-right-2 img{
+   width: 100%;
+   height: 225px;
+   margin-top: 20px;
+   
+  }
+ .left-margin-top{
+  margin-top: 100px;
+ text-align: center;
+ }
+  .together-right-heading{
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .points{
+    text-align: start;
+  }
+
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 70%;
+    font-weight: 600;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+  /* .policies */
+  .policies-bg{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.6) 50%
+      ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/policy-bg-1-1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 120px;
+  }
+  .policies-heading{
+    font-size: 20px;
+  }
+.provide-heading{
+  font-size: 12px;
+}
+.provide-text{
+  font-size: 10px;
+}
+.text-primary{
+  font-size: 20px;
+}
+  .card-politaro,.card-politaro-2,.card-politrao-3{
+    background-color: whitesmoke;
+    position: relative;
+    border-bottom: 2px solid red;
+  }
+  
+  .hr:before {
+    position: absolute;
+    content: '';
+    background-color: red;
+    width: 40px;
+    height: 2px;
+    top: 80px;
+    left: 50px;
+  
+}
+/* politaro-history  */
+.image-1 img{
+  width: 100%;
+  margin-top: 20px;
+ }
+ 
+/* party  */
+.margin-top-card{
+  margin-top: 20px;
+}
+.politaro-heading{
+  font-size: 45px;
+}
+
+/* contribute  */
+.contribute-heading{
+  font-size: 35px;
+}
+/* .politaro news  */
+.news-heading{
+  font-size: 18.6px;
+}
+
+/* .politaro $ 9 */
+.politaro-center{
+  text-align: center;
+ }
+  }
+
+
+  /* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+  
+@media (min-width:771px) and (max-width:1030px){
+
+  /* about three card */
+  .three-card-margin-top{
+    margin-top: 80px;
+  }
+  .about-font{
+    font-size: 70px;
+  }
+  .thumb-icon{
+    font-size: 50px;
+    color:#cd2828 ;
+  }
+  .card-heading{
+    font-size: 20px;
+  }
+  .text-secondary{
+    font-size: 10px;
+  }
+  .one{
+    font-size: 50px;
+    opacity: .030;
+    margin-left: 50px;
+  }
+
+   /* together we can  */
+
+   .together-margin-top{
+    margin-top: 100px;
+  }
+  .image-right img{
+    width: 100%;
+  
+   
+    /* width: 40rem; */
+  }
+  .image-right-2 img{
+   width: 100%;
+   height: 225px;
+   margin-top: 20px;
+   
+  }
+
+  .together-right-heading{
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .points{
+    text-align: start;
+  }
+
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 70%;
+    font-weight: 600;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+   /* .policies */
+   .policies-bg{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.6) 50%
+      ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/policy-bg-1-1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 120px;
+  }
+  .policies-heading{
+    font-size: 20px;
+  }
+.provide-heading{
+  font-size: 20px;
+}
+.provide-text{
+  font-size: 10px;
+}
+.text-primary{
+  font-size: 30px;
+}
+  .card-politaro,.card-politaro-2,.card-politrao-3{
+    background-color: whitesmoke;
+    position: relative;
+    border-bottom: 2px solid red;
+  }
+  
+  .hr:before {
+    position: absolute;
+    content: '';
+    background-color: red;
+    width: 40px;
+    height: 2px;
+    top: 90px;
+    left: 55px;
+  
+}
+/* politaro-history  */
+.image-1 img{
+  width: 100%;
+  margin-top: 20px;
+ }
+
+ /* party personals  */
+
+.margin-top-card{
+  margin-top: 20px;
+}
+.party-card-1 img{
+  width: 100%;
+}
+.party-card-name{
+  font-size: 13px;
+}
+.politaro-heading{
+  font-size: 50px;
+}
+.party-card-1:hover{
+  background-color:#114f9a;
+  color: white;
+  height: 100%;
+}
+.party-card-1:hover .box-icon{
+
+opacity: 1;
+}
+.box-icon{
+color: white;
+position: absolute;
+top: 48px;
+left: 48px;
+
+background-color: rgba(34, 34, 34, 0.7);
+width: 112px;
+height: 7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+}
+.box-icon i:hover{
+color: red;
+}
+ 
+
+/* contribute  */
+.contribute-heading{
+  font-size: 28px;
+}
+
+/* .politaro news  */
+.news-heading{
+  font-size: 18.6px;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 60%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 35%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+
+
+
+
+
+}
+
+
+

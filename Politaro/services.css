@@ -1,0 +1,1223 @@
+.nav-heading-bg-image {
+    background-image: 
+    url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/inner-banner-services-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 80px;
+  }
+  
+  /* navbar  */
+  
+  .main-logo {
+    width: 10rem;
+  }
+  .donations-btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+   
+  }
+  .donations-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .dropdown a{
+    color: white;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown a:hover{
+    color: white;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 1px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation-duration: 0.4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 30%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+   /* services */
+   .services-font{
+    font-size: 60px;
+  }
+  .services{
+ margin-top: 80px;
+  }
+
+  /* upcoming three card  */
+
+  .card-up-heading{
+    font-size: 20px;
+  }
+  .card-up{
+    position: relative;
+  }
+.read{
+  color: blue;
+}
+.read:hover{
+  color: rgb(248, 5, 5);
+}
+.thumb-icon{
+  color: red;
+  font-size: 40px;
+}
+.one::before{
+  content: '1';
+  /* width: 100%; */
+  position: absolute;
+ font-size: 200px;
+ opacity: .060;
+ left: 170px;
+ bottom: -200px;
+ color: #114f9a;
+}
+.two::before{
+  content: '2';
+  /* width: 100%; */
+  position: absolute;
+ font-size: 200px;
+ opacity: .060;
+ left: 170px;
+ bottom: -200px;
+ color: #114f9a;
+}
+.three::before{
+  content: '3';
+  /* width: 100%; */
+  position: absolute;
+ font-size: 200px;
+ opacity: .060;
+ left: 170px;
+ bottom: -200px;
+ color: #114f9a;
+}
+hr{
+  width: 50px;
+  background-color: rgb(183, 179, 179);
+  height: 3px;
+  position: absolute;
+  bottom: -13px;
+  left: 45px;
+}
+
+  /* together we can  */
+  .together-margin-top{
+    margin-top: 80px;
+    max-width: 1255px;
+    width: 100%;
+  }
+  .together-left-margin{
+    margin-top: 70px;
+  }
+  .star{
+    color:#cd2828 ;
+  }
+  .together-right-heading{
+    font-size: 49px;
+    font-weight: 700;
+  }
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 40%;
+    font-weight: 600;
+    border-radius: 1px;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+/* together card  */
+
+.to-card{
+/* margin-top: 30px; */
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+  background-color: #f1f1f1;
+}
+.to-card:hover{
+  background-color: #114f9a;
+  color: white;
+}
+.to-icon {
+ place-content: center;
+ text-align: center;
+ 
+  /* background-color: white; */
+}
+.to-icon i{
+  font-size: 100px;
+  padding: 20px;
+  background-color:white;
+  
+}
+.to-main-card{
+  padding-top: 30px;
+}
+
+.to-card-heading{
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 20px;
+}
+.to-card:hover i{
+ background-color: red;
+color: white;
+}
+
+
+/* donate-today  */
+.donate-today .donate-bg {
+  background: url("https://politaro.smartdemowp.com/wp-content/uploads/9.png");
+
+  /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    width: 42%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+ /* width: 100%;
+  background-repeat: no-repeat;
+  background-position: center ;
+  margin-top: 150px; */
+}
+.donate-bg{
+  width:100%;
+ 
+}
+.donate-today {
+  margin-top: 100px;
+  background-color: #09274c;
+  /* width: 100%; */
+  /* position: relative; */
+  /* padding: 15rem; */
+  /* max-width: 100%; */
+}
+
+.donate-today-heading {
+  font-size: 32px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 10px;
+}
+.donate {
+  /* padding: 20px; */
+  width:47%;
+  margin-left: 100%;
+  padding: 40px;
+}
+
+.donate-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 0px;
+}
+.donate-card {
+  border: 3px solid rgb(208, 206, 206);
+  color: white;
+}
+.donate-card:hover {
+  background-color: white;
+  color: black;
+}
+.donate-now-btn {
+  background-color: #e23e4e;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.donate-now-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* organized policies  */
+
+.organized-margin-top {
+  margin-top: 150px;
+}
+.org-heading {
+  font-size: 55px;
+  font-weight: 600;
+}
+.navtabs{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+ font-size: 25px;
+}
+
+/* accordion-item  */
+
+.nav-link {
+  color: rgb(96, 96, 249);
+}
+.nav-link:hover {
+  color: red;
+  border-bottom: 3px solid red;
+}
+.navtabs {
+  border-bottom: 4px solid rgb(236, 227, 227);
+}
+.accordion-item {
+  border-top: 3px solid rgb(217, 212, 212);
+  border-bottom: 3px solid rgb(217, 212, 212);
+}
+.accordion {
+  border: none;
+  outline: none;
+}
+
+.accordion-body {
+  font-size: 20px;
+}
+
+
+  
+/* confirm your vote  */
+.confirm-bg {
+  background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/cta-3-bg-1-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.confirm-margin-top {
+  margin-top: 100px;
+}
+.font-confirm-heading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.learn-more-btn {
+  background-color: #e23e4e;
+  color: white;
+width: 250px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.learn-more-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* politaro in news  */
+
+.politaro-margin-top {
+  margin-top: 50px;
+}
+.font-politaro-heading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.card-politaro,.card-politaro-2,.card-politrao-3{
+  background-color: whitesmoke;
+}
+.card-politaro:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgb(17, 22, 95),
+      rgba(20, 26, 90, 0.703) 50%
+    ),
+    url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+.news-heading{
+  font-size: 20px;
+}
+.card-politaro-2:hover{
+  background-image:linear-gradient(
+    0deg,
+    rgb(17, 22, 95),
+    rgba(20, 26, 90, 0.703) 50%
+  ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+.card-politrao-3:hover{
+  background-image:linear-gradient(
+    0deg,
+    rgb(17, 22, 95),
+    rgba(20, 26, 90, 0.703) 50%
+  ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
+
+/* company icons  */
+.company-icons-margin-top{
+  margin-top: 80px;
+}
+
+/* signup foe newsletter  */
+.signup-bg{
+  background-color: #114f9a;
+  margin-top: 100px;
+}
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 25rem;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 12rem;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $9.1k  */
+
+.politaro-footer-1{
+  background-color: #061a33;
+}
+.footer-1-logo {
+  width: 10rem;
+}
+
+
+/* footer-2  */
+
+.end{
+ background-color: #061a33;
+ border-top:5px solid #2b3c51;
+} 
+.footer-icons{
+  color:  #57697d;
+  font-size: 25px;
+  padding: 5px;
+}
+.footer-icons:hover{
+  color: white;
+}
+.end-margin-top{
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.end-dashed{
+  border-bottom:3.5px solid #2b3c51;
+}
+.end-profile{
+  transition: margin-left 0.3s;
+}
+
+.end-profile:hover{
+margin-left: 10px;
+color: red;
+}
+
+
+/* 320px    111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media (min-width:10px) and (max-width:320px){
+
+
+   /* together we can  */
+
+   .together-margin-top{
+    margin-top: 50px;
+    max-width: 1255px;
+    width: 100%;
+  }
+  .together-left-margin{
+    margin-top: 20px;
+
+  }
+  .star{
+    color:#cd2828 ;
+    
+  }
+
+  .together-right-heading{
+    font-size: 30px;
+    font-weight: 700;
+  }
+ 
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 60%;
+    font-weight: 600;
+    border-radius: 1px;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+/* together card  */
+
+.to-main-card{
+  padding-top: 0px;
+}
+.to-card{
+
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+}
+.to-card:hover{
+  background-color: #114f9a;
+  color: white;
+}
+.to-icon {
+ place-content: center;
+ text-align: center;
+ 
+  /* background-color: white; */
+}
+.to-icon i{
+  font-size: 100px;
+  padding: 20px;
+  background-color:white;
+  
+}
+
+.to-card-heading{
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 20px;
+}
+.to-card:hover i{
+ background-color: red;
+color: white;
+}
+
+
+
+
+
+/* donate-today  */
+.donate-today .donate-bg{
+  background: none;
+  /* max-width: 100vw; */
+  background-repeat: no-repeat;
+width: 100%;
+text-align: center;
+  /* margin-top: 150px; */
+}
+.donate-today {
+  background-color: #09274c;
+/* padding: 30px; */
+margin-top: 80px;
+}
+.donate-today-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.donate {
+ width: 100%;
+/* max-width: 1000px; */
+margin-left: 0px;
+  /* padding: 50px; */
+}
+.donate-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.donate-card {
+  border: 3px solid rgb(208, 206, 206);
+  color: white;
+}
+.donate-card:hover {
+  background-color: white;
+  color: black;
+}
+.donate-now-btn {
+  background-color: #e23e4e;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.donate-now-btn:hover {
+  background-color: white;
+  color: black;
+}
+/* organized policies  */
+
+.organized-margin-top {
+  margin-top: 50px;
+}
+.org-heading {
+  font-size: 45px;
+  font-weight: 600;
+}
+.navtabs{
+
+
+}
+.nav-link{
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+/* .politaro news  */
+.news-heading{
+  font-size: 18px;
+}
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $ 9 */
+.politaro-center{
+ text-align: center;
+}
+
+/* footer-2  */
+
+.end-margin-top{
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+}
+
+/* 425px 222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+@media (min-width:321px) and (max-width:576px){
+
+/* together we can  */
+
+.together-margin-top{
+  margin-top: 50px;
+  max-width: 1255px;
+  width:90%;
+}
+.together-left-margin{
+  margin-top: 20px;
+
+}
+.star{
+  color:#cd2828 ;
+  
+}
+
+.together-right-heading{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.learn-more-btn{
+  background-color: #e23e4e;
+  color: white;
+  width: 60%;
+  font-weight: 600;
+  border-radius: 1px;
+}
+.learn-more-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/* together card  */
+
+.to-main-card{
+padding-top: 0px;
+}
+.to-card{
+
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f1f1f1;
+margin-top: 30px;
+}
+.to-card:hover{
+background-color: #114f9a;
+color: white;
+}
+.to-icon {
+place-content: center;
+text-align: center;
+
+/* background-color: white; */
+}
+.to-icon i{
+font-size: 100px;
+padding: 20px;
+background-color:white;
+
+}
+
+.to-card-heading{
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 20px;
+}
+.to-card:hover i{
+background-color: red;
+color: white;
+}
+
+
+/* donate-today  */
+.donate-today .donate-bg{
+  background: none;
+  /* max-width: 100vw; */
+  background-repeat: no-repeat;
+width: 100%;
+text-align: center;
+  /* margin-top: 150px; */
+}
+.donate-today {
+  background-color: #09274c;
+padding: 0px;
+margin-top: 80px;
+}
+.donate-today-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.donate {
+ width: 100%;
+/* max-width: 1000px; */
+margin-left: 0px;
+  /* padding: 50px; */
+}
+.donate-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.donate-card {
+  border: 3px solid rgb(208, 206, 206);
+  color: white;
+}
+.donate-card:hover {
+  background-color: white;
+  color: black;
+}
+.donate-now-btn {
+  background-color: #e23e4e;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.donate-now-btn:hover {
+  background-color: white;
+  color: black;
+}
+/* organized policies  */
+
+.organized-margin-top {
+  margin-top: 50px;
+}
+.org-heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-link{
+ 
+  font-size: 30px;
+}
+
+/* .politaro news  */
+.news-heading{
+  font-size: 24px;
+}
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+/* .politaro $ 9 */
+.politaro-center{
+  text-align: center;
+ }
+
+
+}
+
+/* 768 3333333333333333333333333333333333333333333333333333333 */
+@media (min-width:576px) and (max-width:770px){
+
+  .card-up-heading{
+    font-size: 15px;
+  }
+  .thumb-icon{
+    font-size: 20px;
+  }
+  .one::before{
+    content: '1';
+    /* width: 100%; */
+    position: absolute;
+   font-size: 150px;
+   opacity: .060;
+   left: 100px;
+   bottom: -170px;
+   color: #114f9a;
+  }
+  .two::before{
+    content: '2';
+    /* width: 100%; */
+    position: absolute;
+   font-size: 150px;
+   opacity: .060;
+   left: 100px;
+   bottom: -170px;
+   color: #114f9a;
+  }
+  .three::before{
+    content: '3';
+    /* width: 100%; */
+    position: absolute;
+   font-size: 150px;
+   opacity: .060;
+   left: 100px;
+   bottom: -170px;
+   color: #114f9a;
+  }
+  hr{
+    width: 50px;
+    background-color: rgb(183, 179, 179);
+    height: 2px;
+    position: absolute;
+    bottom: -20px;
+    left: 28px;
+  }
+  .text-up{
+    font-size: 10px;
+  }
+
+
+  /* together we can  */
+
+  .together-margin-top{
+    margin-top: 50px;
+    max-width: 1255px;
+    width: 100%;
+  }
+  .together-left-margin{
+    margin-top: 20px;
+
+  }
+  .star{
+    color:#cd2828 ;
+    
+  }
+
+  .together-right-heading{
+    font-size: 40px;
+    font-weight: 700;
+  }
+ 
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 30%;
+    font-weight: 600;
+    border-radius: 1px;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+/* together card  */
+
+.to-main-card{
+  padding-top: 0px;
+}
+.to-card{
+
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+}
+.to-card:hover{
+  background-color: #114f9a;
+  color: white;
+}
+.to-icon {
+ place-content: center;
+ text-align: center;
+ 
+  /* background-color: white; */
+}
+.to-icon i{
+  font-size: 100px;
+  padding: 20px;
+  background-color:white;
+  
+}
+
+.to-card-heading{
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 30px;
+}
+.to-card:hover i{
+ background-color: red;
+color: white;
+}
+
+/* donate-today  */
+.donate-today .donate-bg{
+  background: none;
+  /* max-width: 100vw; */
+  background-repeat: no-repeat;
+width: 100%;
+text-align: center;
+  /* margin-top: 150px; */
+}
+.donate-today {
+  background-color: #09274c;
+padding: 0px;
+margin-top: 80px;
+}
+.donate-today-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.donate {
+ width: 100%;
+/* max-width: 1000px; */
+margin-left: 0px;
+  /* padding: 50px; */
+}
+.donate-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.donate-card {
+  border: 3px solid rgb(208, 206, 206);
+  color: white;
+}
+.donate-card:hover {
+  background-color: white;
+  color: black;
+}
+.donate-now-btn {
+  background-color: #e23e4e;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.donate-now-btn:hover {
+  background-color: white;
+  color: black;
+}
+/* organized policies  */
+
+.organized-margin-top {
+  margin-top: 50px;
+}
+.org-heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-link{
+ 
+  font-size: 25px;
+  
+} 
+/* .politaro news  */
+.news-heading{
+  font-size: 18.6px;
+}
+
+   
+
+  }
+
+
+  /* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+  
+@media (min-width:771px) and (max-width:1030px){
+
+   /* together we can  */
+   .together-margin-top{
+    margin-top: 60px;
+    max-width: 1255px;
+    width: 100%;
+  }
+  .together-left-margin{
+    margin-top: 70px;
+  }
+  .star{
+    color:#cd2828 ;
+  }
+  .together-right-heading{
+    font-size: 49px;
+    font-weight: 700;
+  }
+  .learn-more-btn{
+    background-color: #e23e4e;
+    color: white;
+    width: 40%;
+    font-weight: 600;
+    border-radius: 1px;
+  }
+  .learn-more-btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+/* together card  */
+
+.to-card{
+/* margin-top: 30px; */
+width: 95%;
+padding-top: 40px;
+padding-bottom: 40px;
+  background-color: #f1f1f1;
+}
+.to-card:hover{
+  background-color: #114f9a;
+  color: white;
+}
+.to-icon {
+ place-content: center;
+ text-align: center;
+ 
+  /* background-color: white; */
+}
+.to-icon i{
+  font-size: 100px;
+  padding: 20px;
+  background-color:white;
+  
+}
+.to-main-card{
+  padding-top: 30px;
+}
+
+.to-card-heading{
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 20px;
+}
+.to-card:hover i{
+ background-color: red;
+color: white;
+}
+
+
+/* donate-today  */
+.donate-today .donate-bg{
+  background: none;
+  /* max-width: 100vw; */
+  background-repeat: no-repeat;
+width: 100%;
+
+  /* margin-top: 150px; */
+}
+.donate-today {
+  background-color: #09274c;
+padding: 0px;
+margin-top: 80px;
+}
+.donate-today-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.donate {
+ /* width: 50%; */
+/* max-width: 1000px; */
+margin-left: 0px;
+width:100%;
+  /* padding: 50px; */
+}
+.donate-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  
+  gap: 10px;
+}
+.donate-card {
+  border: 3px solid rgb(208, 206, 206);
+  color: white;
+}
+
+.donate-card:hover {
+  background-color: white;
+  color: black;
+}
+.donate-now-btn {
+  background-color: #e23e4e;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.donate-now-btn:hover {
+  background-color: white;
+  color: black;
+}
+/* organized policies  */
+
+.organized-margin-top {
+  margin-top: 50px;
+}
+.org-heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-link{
+ 
+  font-size: 20px;
+  
+}
+/* .politaro news  */
+.news-heading{
+  font-size: 18.6px;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 60%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 35%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+
+}
+
+
+

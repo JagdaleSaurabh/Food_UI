@@ -1,0 +1,286 @@
+.nav-heading-bg-image {
+    background-image: 
+    url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/inner-banner-services-bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 80px;
+  }
+  
+  /* navbar  */
+  
+  .main-logo {
+    width: 10rem;
+  }
+  .donations-btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+   
+  }
+  .donations-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .dropdown a{
+    color: white;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown a:hover{
+    color: white;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 1px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation-duration: 0.4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 30%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  /* Contact */
+  .contact-font{
+    font-size: 60px;
+  }
+  .contact{
+ margin-top: 80px;
+  }
+
+.leader-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* event */
+.event-bg{
+    background-color:#f5f5f5;
+}
+.time-font{
+    font-size: 14px;
+}
+
+/* smart  */
+.icon{
+    color: red;
+ border-radius: 3px solid red;
+}
+
+
+
+
+/* footer-2  */
+
+.end{
+ background-color: #061a33;
+ border-top:5px solid #2b3c51;
+} 
+.footer-icons{
+  color:  #57697d;
+  font-size: 25px;
+  padding: 5px;
+}
+.footer-icons:hover{
+  color: white;
+}
+.end-margin-top{
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.end-dashed{
+  border-bottom:3.5px solid #2b3c51;
+}
+.end-profile{
+  transition: margin-left 0.3s;
+}
+
+.end-profile:hover{
+margin-left: 10px;
+color: red;
+}
+
+
+/* 320px    111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media (min-width:10px) and (max-width:320px){
+
+/* spaker  */
+.speaker-center{
+display: flex;
+justify-content: center;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $ 9 */
+.politaro-center{
+ text-align: center;
+}
+
+/* footer-2  */
+
+.end-margin-top{
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+}
+
+/* 425px 222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+@media (min-width:321px) and (max-width:576px){
+
+/* spaker  */
+.speaker-center{
+    display: flex;
+    justify-content: center;
+    }
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+/* .politaro $ 9 */
+.politaro-center{
+  text-align: center;
+ }
+
+
+}
+
+/* 768 3333333333333333333333333333333333333333333333333333333 */
+@media (min-width:576px) and (max-width:770px){
+
+  /* let make  */
+.let-card-text{
+
+    font-size: 12px;
+}
+
+   
+
+  }
+
+
+  /* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+  
+@media (min-width:771px) and (max-width:1030px){
+
+/* let make  */
+.let-card-text{
+
+    font-size: 15px;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 60%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 35%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+
+}
+
+
+

@@ -1,0 +1,748 @@
+.nav-heading-bg-image {
+    background-image: 
+    url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/inner-banner-about-me-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 90px;
+  }
+  
+  /* navbar  */
+  
+  .main-logo {
+    width: 10rem;
+  }
+  .donations-btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+   
+  }
+  .donations-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .dropdown a{
+    color: white;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown a:hover{
+    color: white;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 1px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation-duration: 0.4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 30%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+
+  /* chris */
+  .star-star{
+  display: flex;
+  justify-content: center;
+  }
+.chris-width{
+    margin-top: 60px;
+    /* max-width: 30vw; */
+    width: 445px;
+}  
+.heading-name{
+    font-size: 70px;
+}
+.star-border{
+    width: 50px;
+    border-bottom: 4px solid white;
+  
+    position: relative;
+    left: 0px;
+    top: -10px;
+}
+
+
+/* together  */
+.together {
+    margin-top: 90px;
+    /* max-width: 100%; */
+    
+  }
+  .together-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  
+  .font-together {
+    font-size: 55px;
+  }
+  .star {
+    color: #cd2828;
+  }
+  
+  /* card  together*/
+  
+  .card-heading {
+    background-color: #245da2;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 100px;
+   
+    font-weight: 100;
+  }
+  .card-to {
+    margin-top: 50px;
+   
+  }
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 100%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+   /* margin: 10px; */
+  }
+  
+  .card-box:hover {
+    background-color: red;
+    margin-top: -10px;
+    color: white;
+  }
+
+  /* lorem  */
+  .lorem-bg{
+    background-color:#114f9a ;
+    margin-top: 100px;
+    padding-bottom: 70px;
+  }
+  .lorem-right-img img{
+    width: 100%;
+  }
+  .lorem-left{
+    margin-top: 70px;
+    padding: 20px 0px 70px 30px ;
+  }
+  .lorem-left-sign-img img{
+    width: 30%;
+    margin-top: 60px;
+  }
+
+  /* to progress  */
+  .toprogress-bg{
+    background-image: linear-gradient(
+        0deg,
+        rgba(3, 47, 100, 1),
+        rgba(4, 39, 83, 0.9) 100%
+      ),
+      url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/tweet-bg-1-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 70px;
+    /* margin-top: 100px; */
+  }
+  
+/* internal function map  */
+.internal-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.map{
+    background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/map-1-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    width: 100%;
+    height: 28rem;
+    margin-top: 30px;
+  
+}
+
+
+ /* in right direction  */
+ .right-bg{
+  background-color: #09274c;
+  margin-top: 70px;
+ }
+ .right-heading{
+  font-size: 50px;
+  font-weight: 500;
+ }
+ .progress{
+  height: 8px;
+  
+ }
+
+
+
+
+
+/* company icons  */
+.company-icons-margin-top{
+  margin-top: 80px;
+}
+
+/* signup foe newsletter  */
+.signup-bg{
+  background-color: #114f9a;
+  margin-top: 130px;
+}
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 25rem;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 12rem;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $9.1k  */
+
+.politaro-footer-1{
+  background-color: #061a33;
+}
+.footer-1-logo {
+  width: 10rem;
+}
+
+
+/* footer-2  */
+
+.end{
+ background-color: #061a33;
+ border-top:5px solid #2b3c51;
+} 
+.footer-icons{
+  color:  #57697d;
+  font-size: 25px;
+  padding: 5px;
+}
+.footer-icons:hover{
+  color: white;
+}
+.end-margin-top{
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.end-dashed{
+  border-bottom:3.5px solid #2b3c51;
+}
+.end-profile{
+  transition: margin-left 0.3s;
+}
+
+.end-profile:hover{
+margin-left: 10px;
+color: red;
+}
+
+
+/* 320px    111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media (min-width:10px) and (max-width:320px){
+
+  /* chris */
+  .chris-width{
+    margin-top: 60px;
+    max-width: 80vw;
+    text-align: center;
+}  
+.heading-name{
+    font-size: 40px;
+}
+.star-border{
+    width: 40px;
+    border-bottom: 3px solid white;
+  
+    position: relative;
+    left: -3px;
+    top: -10px;
+}
+
+/* together  */
+.together-card-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    gap: 5px;
+  }
+.together {
+    margin-top: 5rem;
+    max-width: 80%;
+  }
+  
+  .font-together {
+    font-size: 35px;
+  }
+  
+  /* card  together*/
+  
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
+  
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 100%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+   margin-top: 10px;
+  }
+   /* lorem  */
+   .lorem-bg{
+    background-color:#114f9a ;
+    margin-top: 100px;
+    padding-bottom: 70px;
+  }
+  .lorem-right-img img{
+    width: 100%;
+  }
+  .lorem-left{
+    margin-top: 40px;
+    /* padding: 20px 0px 70px 30px ; */
+  }
+  .lorem-left-sign-img img{
+    width: 40%;
+    margin-top: 40px;
+  }
+
+  .map{
+    background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/map-1-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   object-fit: cover;
+    width: 100px;
+    height: 28rem;
+    margin-top: 30px;
+  
+}
+/* in right  */
+.taxation-margin{
+  margin-top: 50px;
+}
+
+
+
+
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+/* footer-1 politaro $ 9 */
+.politaro-center{
+ text-align: center;
+}
+
+/* footer-2  */
+
+.end-margin-top{
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+}
+
+/* 425px 222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+@media (min-width:321px) and (max-width:576px){
+
+ /* chris */
+ .chris-width{
+    margin-top: 60px;
+    max-width: 70vw;
+    text-align: center;
+}  
+.heading-name{
+    font-size: 40px;
+}
+.star-border{
+    width: 40px;
+    border-bottom: 3px solid white;
+  
+    position: relative;
+    left: -3px;
+    top: -10px;
+}
+
+/* together  */
+.together-card-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  
+.together {
+    margin-top: 5rem;
+    max-width: 80%;
+  }
+  
+  .font-together {
+    font-size: 35px;
+  }
+  
+  /* card  together*/
+  
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
+  
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 80%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+   /* margin: 10px; */
+   margin-top: 10px;
+  }
+  /* in right  */
+.taxation-margin{
+  margin-top: 50px;
+}
+
+
+
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 100%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+/* .politaro $ 9 */
+.politaro-center{
+  text-align: center;
+ }
+
+
+}
+
+/* 768 3333333333333333333333333333333333333333333333333333333 */
+@media (min-width:576px) and (max-width:770px){
+
+   /* chris */
+   .chris-width{
+    margin-top: 60px;
+    max-width: 50vw;
+    text-align: center;
+}  
+.heading-name{
+    font-size: 60px;
+}
+.star-border{
+    width: 40px;
+    border-bottom: 3px solid white;
+  
+    position: relative;
+    left: -3px;
+    top: -10px;
+}
+
+  /* together  */
+  .together-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  
+  .together {
+    margin-top: 5rem;
+    max-width: 80%;
+  }
+  
+  .font-together {
+    font-size: 35px;
+  }
+  
+  /* card  together*/
+  
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
+  
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 100%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+   /* margin: 10px; */
+   margin-top: 10px;
+  }
+
+
+  
+/* internal function map  */
+.internal-img img{
+  width: 100%;
+  margin-top: 20px;
+}
+.map{
+  background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/map-1-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+  width: 100%;
+  height: 28rem;
+  margin-top: 30px;
+
+}
+/* in right  */
+.taxation-margin{
+  margin-top: 50px;
+}
+   
+
+  }
+
+
+  /* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+  
+@media (min-width:771px) and (max-width:1030px){
+
+ /* chris */
+ .chris-width{
+    margin-top: 60px;
+    max-width: 40vw;
+    text-align: center;
+}  
+.heading-name{
+    font-size: 60px;
+}
+.star-border{
+    width: 40px;
+    border-bottom: 3px solid white;
+  
+    position: relative;
+    left: -3px;
+    top: -10px;
+}
+
+
+/* together  */
+.together-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  
+.together {
+    margin-top: 6rem;
+    max-width: 80%;
+  }
+  
+  .font-together {
+    font-size: 35px;
+  }
+  .together-text{
+    font-size: 14px;
+  }
+  
+  /* card  together*/
+  
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
+  
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 100%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+   /* margin: 10px; */
+   margin-top: 0px;
+  }
+   /* lorem  */
+   .lorem-bg{
+    background-color:#114f9a ;
+    margin-top: 100px;
+    padding-bottom: 10px;
+  }
+  .lorem-right-img img{
+    width: 100%;
+  }
+  .lorem-left{
+    margin-top: 40px;
+    padding: 10px 0px 70px 30px ;
+  }
+  .lorem-left-sign-img img{
+    width: 30%;
+    margin-top: 40px;
+  }
+
+  
+/* internal function map  */
+.internal-img img{
+  width: 100%;
+  margin-top: 20px;
+}
+.map{
+  background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/map-1-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+  width: 100%;
+  height: 28rem;
+  margin-top: 30px;
+
+}
+
+
+/* signup foe newsletter  */
+
+.email-input{
+  border: none;
+  outline: none;
+  padding: 10px;
+
+  width: 60%;
+}
+.email-input::placeholder{
+  color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 35%;
+  margin-top: 20px;
+}
+.subscribe-btn:hover{
+  background-color:black;
+  color: white;
+}
+
+
+}
+
+
+

@@ -1,0 +1,966 @@
+.nav-heading-bg-image {
+  background-image: 
+  url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/inner-banner-services-bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 80px;
+}
+
+/* navbar  */
+
+.main-logo {
+  width: 10rem;
+}
+.donations-btn{
+  background-color: red;
+  color: white;
+  font-weight: 700;
+ 
+}
+.donations-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.dropbtn {
+  color: white;
+  font-size: 16px;
+}
+
+.dropdown a{
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+.dropdown a:hover{
+  color: white;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 1px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: red;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  animation-duration: 0.4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+/* team */
+.team-font{
+  font-size: 60px;
+}
+.team{
+margin-top: 80px;
+}
+
+
+/* upholds the idea  */
+.images-width{
+  max-width: 1255px;
+  width: 100%;
+}
+.newsdetails-margin{
+  margin-top: 120px;
+}
+
+.election-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 18%;
+  height: 10%;
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+
+}
+.election-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+.market img{
+  width: 100%;
+}
+.hori-left{
+  width: 60px;
+  height: 3px;
+  background-color: rgb(180, 176, 176);
+  margin-top: 10px;
+}
+/* political  stabilty */
+.pol-img img{
+  width: 100%;
+}
+.quotes-width{
+  width: 10%;
+  margin-top: -10px;
+  margin-left: 50px;
+  
+}
+.quotes{
+  margin-left: -20px;
+}
+
+/* buttons-left */
+.btn-left{
+display: flex;
+
+  }
+  .btns-left{
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  width: 15%;
+  
+  }
+  .btns-left:hover{
+  background-color: #114f9a;
+  color: white;
+  }
+  .hori-2::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color:rgb(210, 207, 207);
+    position: absolute;
+   bottom: -30px;
+  }
+.dash::before{
+  content: '';
+  width: 45px;
+  height: 4px;
+  background-color:rgb(252, 10, 10);
+  position: absolute;
+ top: 85px;
+}
+.comment{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  border: 3px solid rgb(189, 186, 186);
+}
+.user-name{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border: 3px solid rgb(189, 186, 186);
+}
+.email{
+  margin-left: 20px;
+}
+.post-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 20%;
+ 
+
+}
+.post-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+
+.search{
+ 
+  position: relative;
+}
+.search-input{
+  border:3px solid rgb(175, 172, 172);
+  outline: none;
+  width: 220px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.search-icon{
+  position: absolute;
+  right: 10px;
+  bottom: -3px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.categories{
+  width: 80%;
+  position: relative;
+  margin-left: 20px;
+}
+.hri::before{
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color:rgb(246, 8, 8);
+  position: absolute;
+ bottom: 200px;
+}
+
+/* recent event  */
+.recent-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.recent-images img{
+  width: 100%;
+}
+/* trending  */
+.trending{
+  width: 80%;
+  position: relative;
+  margin-left: 20px;
+}
+
+.hrio::before{
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color:rgb(246, 8, 8);
+  position: absolute;
+  top: 30px;
+}
+.trending-img img{
+  width: 100%;
+}
+.trending-card-heading{
+  width: 70%;
+  margin-left: 10px;
+  font-size: 14.5px;
+}
+.horizantal{
+height: 2px;
+background-color: rgb(165, 160, 160);
+}
+
+/* popular tags  */
+.buttons{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.btns{
+background-color: #f4f4f4;
+padding: 10px;
+text-align: center;
+margin-top: 10px;
+
+}
+.btns:hover{
+background-color: #114f9a;
+color: white;
+}
+
+/* .next event */
+.next-bg{
+  background-image: url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-sidebar-ad-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  padding-top: 130px;
+ padding-bottom: 130px;
+ padding-left: 20px;
+ margin-left: 20px;
+}
+
+.twodays{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+
+
+/* signup foe newsletter  */
+.signup-bg{
+background-color: #114f9a;
+margin-top: 70px;
+}
+.email-input{
+border: none;
+outline: none;
+padding: 10px;
+
+width: 25rem;
+}
+.email-input::placeholder{
+color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+background-color: red;
+color: white;
+border: none;
+outline: none;
+padding: 10px;
+width: 12rem;
+}
+.subscribe-btn:hover{
+background-color:black;
+color: white;
+}
+
+/* footer-1 politaro $9.1k  */
+
+.politaro-footer-1{
+background-color: #061a33;
+}
+.footer-1-logo {
+width: 10rem;
+}
+
+
+/* footer-2  */
+
+.end{
+background-color: #061a33;
+border-top:5px solid #2b3c51;
+} 
+.footer-icons{
+color:  #57697d;
+font-size: 25px;
+padding: 5px;
+}
+.footer-icons:hover{
+color: white;
+}
+.end-margin-top{
+padding-top: 20px;
+padding-bottom: 90px;
+}
+
+.end-dashed{
+border-bottom:3.5px solid #2b3c51;
+}
+.end-profile{
+transition: margin-left 0.3s;
+}
+
+.end-profile:hover{
+margin-left: 10px;
+color: red;
+}
+
+
+/* 320px    111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media (min-width:10px) and (max-width:320px){
+
+
+.election-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 50%;
+  height: 10%;
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+
+}
+.election-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+.uphold-img img{
+  width: 100%;
+}
+
+/* quotes  */
+.quotes-width{
+  width: 100%;
+  margin-top: -10px;
+  margin-left: 50px;
+  
+}
+.quotes{
+  margin-left: -20px;
+}
+
+/* buttons-left */
+.btn-left{
+display: flex;
+
+  }
+  .btns-left{
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  width:34%;
+  
+  }
+  .btns-left:hover{
+  background-color: #114f9a;
+  color: white;
+  }
+  .hori-2::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color:rgb(210, 207, 207);
+    position: absolute;
+   bottom: -30px;
+  }
+.dash::before{
+  content: '';
+  width: 45px;
+  height: 4px;
+  background-color:rgb(252, 10, 10);
+  position: absolute;
+ top: 85px;
+}
+.comment{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  border: 3px solid rgb(189, 186, 186);
+}
+.user-name{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  margin-top: 20px;
+  border: 3px solid rgb(189, 186, 186);
+}
+.email{
+  margin-left: 0px;
+}
+.post-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 70%;
+ 
+
+}
+.post-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+
+
+
+
+
+/* search  */
+
+.search{
+ margin-top: 70px;
+  position: relative;
+}
+.search-input{
+  border:3px solid rgb(175, 172, 172);
+  outline: none;
+  width: 220px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.search-icon{
+  position: absolute;
+  right: 10px;
+  bottom: -3px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+/* signup foe newsletter  */
+
+.email-input{
+border: none;
+outline: none;
+padding: 10px;
+
+width: 100%;
+}
+.email-input::placeholder{
+color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+background-color: red;
+color: white;
+border: none;
+outline: none;
+padding: 10px;
+width: 100%;
+margin-top: 20px;
+}
+.subscribe-btn:hover{
+background-color:black;
+color: white;
+}
+
+/* footer-1 politaro $ 9 */
+.politaro-center{
+text-align: center;
+}
+
+/* footer-2  */
+
+.end-margin-top{
+padding-top: 50px;
+padding-bottom: 90px;
+}
+
+}
+
+/* 425px 222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+@media (min-width:321px) and (max-width:576px){
+.election-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+
+}
+.election-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+.uphold-img img{
+  width: 100%;
+}
+
+
+
+/* quotes  */
+.quotes-width{
+  width: 50%;
+  margin-top: -10px;
+  /* margin-left: 50px; */
+  
+}
+.quotes{
+  /* margin-left: -20px; */
+}
+
+/* buttons-left */
+.btn-left{
+display: flex;
+
+  }
+  .btns-left{
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  width: 35%;
+  
+  }
+  .btns-left:hover{
+  background-color: #114f9a;
+  color: white;
+  }
+  .hori-2::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color:rgb(210, 207, 207);
+    position: absolute;
+   bottom: -30px;
+  }
+.dash::before{
+  content: '';
+  width: 45px;
+  height: 4px;
+  background-color:rgb(252, 10, 10);
+  position: absolute;
+ top: 85px;
+}
+.comment{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  border: 3px solid rgb(189, 186, 186);
+}
+.user-name{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  margin-top: 20px;
+  border: 3px solid rgb(189, 186, 186);
+}
+.email{
+  margin-left: 0px;
+}
+.post-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 50%;
+ 
+
+}
+.post-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+/* search  */
+.search{
+  margin-top: 60px;
+  position: relative;
+}
+.search-input{
+  border:3px solid rgb(175, 172, 172);
+  outline: none;
+  width: 220px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.search-icon{
+  position: absolute;
+  right: 100px;
+  bottom: -3px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+border: none;
+outline: none;
+padding: 10px;
+
+width: 100%;
+}
+.email-input::placeholder{
+color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+background-color: red;
+color: white;
+border: none;
+outline: none;
+padding: 10px;
+width: 100%;
+margin-top: 20px;
+}
+.subscribe-btn:hover{
+background-color:black;
+color: white;
+}
+/* .politaro $ 9 */
+.politaro-center{
+text-align: center;
+}
+
+
+}
+
+/* 768 3333333333333333333333333333333333333333333333333333333 */
+@media (min-width:576px) and (max-width:770px){
+
+
+.election-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+
+}
+.election-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+.uphold-img img{
+  width: 100%;
+}
+
+
+/* quotes  */
+.quotes-width{
+  width: 15%;
+  margin-top: -10px;
+  margin-left: 50px;
+  
+}
+.quotes{
+  margin-left: -20px;
+}
+
+/* buttons-left */
+.btn-left{
+display: flex;
+
+  }
+  .btns-left{
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  width: 20%;
+  
+  }
+  .btns-left:hover{
+  background-color: #114f9a;
+  color: white;
+  }
+  .hori-2::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color:rgb(210, 207, 207);
+    position: absolute;
+   bottom: -30px;
+  }
+.dash::before{
+  content: '';
+  width: 45px;
+  height: 4px;
+  background-color:rgb(252, 10, 10);
+  position: absolute;
+ top: 85px;
+}
+.comment{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  border: 3px solid rgb(189, 186, 186);
+}
+.user-name{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  margin-top: 10px;
+  border: 3px solid rgb(189, 186, 186);
+}
+.email{
+  margin-left: 10px;
+}
+.post-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 25%;
+ 
+
+}
+.post-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+
+ 
+/* search  */
+.search{
+ margin-top: 60px;
+  position: relative;
+}
+.search-input{
+  border:3px solid rgb(175, 172, 172);
+  outline: none;
+  width: 220px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.search-icon{
+  position: absolute;
+  right: 70px;
+  bottom: -3px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+}
+
+
+/* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+
+@media (min-width:771px) and (max-width:1030px){
+
+.election-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+
+}
+.election-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+.uphold-img img{
+  width: 100%;
+}
+
+
+/* quotes  */
+.quotes-width{
+  width: 20%;
+  margin-top: -10px;
+  margin-left: 50px;
+  
+}
+.quotes{
+  margin-left: -20px;
+}
+
+/* buttons-left */
+.btn-left{
+display: flex;
+
+  }
+  .btns-left{
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  width: 20%;
+  
+  }
+  .btns-left:hover{
+  background-color: #114f9a;
+  color: white;
+  }
+  .hori-2::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color:rgb(210, 207, 207);
+    position: absolute;
+   bottom: -30px;
+  }
+.dash::before{
+  content: '';
+  width: 45px;
+  height: 4px;
+  background-color:rgb(252, 10, 10);
+  position: absolute;
+ top: 85px;
+}
+.comment{
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  border: 3px solid rgb(189, 186, 186);
+}
+.user-name{
+  width:100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  margin-top: 20px;
+  border: 3px solid rgb(189, 186, 186);
+}
+.email{
+  margin-left: 10px;
+}
+.post-btn{
+  background-color: #cd2828;
+  color: white;
+  width: 30%;
+ 
+
+}
+.post-btn:hover{
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+
+/* search  */
+.search{
+ 
+position: relative;
+}
+.search-input{
+border:3px solid rgb(175, 172, 172);
+outline: none;
+width: 220px;
+height: 40px;
+padding-left: 20px;
+padding-right: 40px;
+}
+.search-icon{
+position: absolute;
+right: 30px;
+bottom: -3px;
+font-size: 20px;
+outline: none;
+border: none;
+}
+
+/* signup foe newsletter  */
+
+.email-input{
+border: none;
+outline: none;
+padding: 10px;
+
+width: 60%;
+}
+.email-input::placeholder{
+color: rgb(130, 124, 124);
+}
+.subscribe-btn{
+background-color: red;
+color: white;
+border: none;
+outline: none;
+padding: 10px;
+width: 35%;
+margin-top: 20px;
+}
+.subscribe-btn:hover{
+background-color:black;
+color: white;
+}
+
+
+}
+
+
+
