@@ -23,16 +23,33 @@
     opacity: 0.7;
     
 } */
+/* .navbar .navbar-fixed{
+  opacity: 1;
 
+  transform: translateY(0%);
+}
+.navbar-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: var(black);
+  box-shadow: 0px 6px 13px 0px RGBA(0, 0, 0, 0.06);
+  opacity: 0;
+
+  transform: translateY(-110%);
+
+  transition: all .4s ease;
+} */
 
 .main-logo {
   width: 10rem;
 }
-.donations-btn{
+.donations-btn {
   background-color: red;
   color: white;
   font-weight: 700;
- 
 }
 .donations-btn:hover {
   background-color: white;
@@ -44,14 +61,15 @@
   font-size: 16px;
 }
 
-.dropdown a{
+.dropdown a {
   color: white;
   position: relative;
   display: inline-block;
+  border: 2px solid transparent;
 }
-.dropdown a:hover{
+.dropdown a:hover {
   color: white;
-  
+  border-bottom: 2px solid red;
 }
 
 .dropdown-content {
@@ -157,23 +175,20 @@
 .size {
   font-size: 60px;
 }
-.election-card-border{
- 
+.election-card-border {
   height: 130px;
   border-right: 3px solid rgb(187, 185, 185);
 }
-.election-margin{
+.election-margin {
   margin-top: 30px;
 }
-
 
 /* together  */
 .together {
   margin-top: 190px;
   /* max-width: 100%; */
-  
 }
-.together-card-grid{
+.together-card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   /* gap: 5px; */
@@ -195,12 +210,11 @@
 }
 .card-icons {
   font-size: 100px;
- 
+
   font-weight: 100;
 }
 .card-to {
   margin-top: 50px;
- 
 }
 .card-box {
   background-color: #f4f4f4;
@@ -208,7 +222,7 @@
   width: 90%;
   color: rgb(215, 112, 71);
   height: 80%;
- /* margin: 10px; */
+  /* margin: 10px; */
 }
 
 .card-box:hover {
@@ -217,28 +231,24 @@
   color: white;
 }
 
-
-
-
 /* donate-today  */
 .donate-today .donate-bg {
   background: url("https://politaro.smartdemowp.com/wp-content/uploads/9.png");
 
   /* position: absolute; */
-    left: 0px;
-    top: 0px;
-    width: 42%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
- /* width: 100%;
+  left: 0px;
+  top: 0px;
+  width: 42%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%;
   background-repeat: no-repeat;
   background-position: center ;
   margin-top: 150px; */
 }
-.donate-bg{
-  width:100%;
- 
+.donate-bg {
+  width: 100%;
 }
 .donate-today {
   margin-top: 100px;
@@ -257,7 +267,7 @@
 }
 .donate {
   /* padding: 20px; */
-  width:47%;
+  width: 47%;
   margin-left: 100%;
   padding: 40px;
 }
@@ -298,7 +308,7 @@
   font-size: 55px;
   font-weight: 600;
 }
-.nav-link{
+.nav-link {
   font-size: 30px;
 }
 
@@ -306,6 +316,7 @@
 
 .nav-link {
   color: rgb(96, 96, 249);
+  border: 3px solid transparent;
 }
 .nav-link:hover {
   color: red;
@@ -334,13 +345,28 @@
 .up-shadow {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.card-up-heading{
+.card-up-heading {
   font-size: 29px;
 }
-.upcoming-image img:hover{
-  transform: scale(.97);
-  transition: .5s ease;
+.upcoming-image {
+  overflow: hidden;
 }
+.upcoming-image img {
+  width: 100%;
+}
+.upcoming-image img {
+  transition: transform 0.5s ease-out;
+}
+
+.upcoming-image img:hover {
+  transform: scale(0.991);
+}
+
+/* .upcoming-image img:hover{
+  transition:all .5s ease-out;
+  transform: scale(.991);
+
+} */
 /* confirm your vote  */
 .confirm-bg {
   background-image: url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/cta-3-bg-1-1.jpg");
@@ -377,52 +403,51 @@
   font-weight: 600;
 }
 
-.media-card-1{
+.media-card-1 {
   color: white;
-  background-color:#40acf4 ;
+  background-color: #40acf4;
   height: 20rem;
 }
-.media-card-3{
-  background-color:#0d60a6;
+.media-card-3 {
+  background-color: #0d60a6;
   height: 19rem;
- padding-top: 80px;
- padding-left: 20px;
+  padding-top: 80px;
+  padding-left: 20px;
 }
-.media-card-4 img:hover{
+.media-card-4 img:hover {
   /* background-color: rgba(138, 119, 119, 0.8); */
   /* background: rgba(black, 0.5); */
 }
-.media-part-2-margin{
+.media-part-2-margin {
   margin-top: 70px;
 }
-.media-card-2{
-  background-color:#302e2f;
+.media-card-2 {
+  background-color: #302e2f;
 }
-.media-card-heading-1{
+.media-card-heading-1 {
   font-size: 25px;
 }
-.media-card-2:hover img{
+.media-card-2:hover img {
   opacity: 0.5;
- 
 }
-.media-card-4{
+.media-card-4 {
   position: relative;
 }
-.play-btn{
+.play-btn {
   width: 4.5rem;
   height: 4.5rem;
- z-index: 1;
- position: absolute;
- left:10rem;
- top: 15rem;
- display: inline-block;
- background-color: red;
- display: flex;
- align-items: center;
- justify-content: center;
+  z-index: 1;
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+  display: inline-block;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.play-btn::before{
+.play-btn::before {
   /* content: "";
   position: absolute;
   left: 50%;
@@ -435,80 +460,80 @@
   border-radius: 50%;
   z-index: -1;
   animation: btn 1900ms ease-in infinite; */
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
   border-radius: 50%;
   border: 2px solid #fff;
-  opacity: .4;
+  opacity: 0.4;
   top: calc(50% - 60px);
   left: calc(50% - 60px);
   -webkit-animation: videoBtnAnim 3s ease-in infinite;
   animation: videoBtnAnim 3s ease-in infinite;
   z-index: -1;
 }
-.play-btn::after{
-  content: '';
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    opacity: .15;
-    top: calc(50% - 80px);
-    left: calc(50% - 80px);
-    -webkit-animation: videoBtnAnim 5s ease-in-out infinite;
-    animation: videoBtnAnim 5s ease-in-out infinite;
-    z-index: -1;
+.play-btn::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  opacity: 0.15;
+  top: calc(50% - 80px);
+  left: calc(50% - 80px);
+  -webkit-animation: videoBtnAnim 5s ease-in-out infinite;
+  animation: videoBtnAnim 5s ease-in-out infinite;
+  z-index: -1;
 }
 
-@keyframes videoBtnAnim{
+@keyframes videoBtnAnim {
   0% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
-}
+  }
 
-25% {
+  25% {
     -webkit-transform: scale(1);
     transform: scale(1);
-}
-50% {
+  }
+  50% {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-}
-75% {
+  }
+  75% {
     -webkit-transform: scale(1);
     transform: scale(1);
-}
-100% {
+  }
+  100% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
-}
+  }
 }
 
-@keyframes videoBtnAnim{
+@keyframes videoBtnAnim {
   0% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
-}
+  }
 
-25% {
+  25% {
     -webkit-transform: scale(1);
     transform: scale(1);
-}
-50% {
+  }
+  50% {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-}
-75% {
+  }
+  75% {
     -webkit-transform: scale(1);
     transform: scale(1);
-}
-100% {
+  }
+  100% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
-}
+  }
 }
 
 /* @keyframes btn{
@@ -558,10 +583,13 @@
 .card-one {
   position: relative;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-img {
   overflow: hidden;
 }
-.card-one img:hover{
+.card-one img:hover {
   transform: scale(1.05);
+  transition: all 0.3s ease-in;
 }
 .date-mar {
   background-color: #cd2828;
@@ -615,7 +643,7 @@
   height: 3.5rem;
   color: white;
 }
-.contribute-heading{
+.contribute-heading {
   font-size: 30px;
 }
 .become-btn:hover {
@@ -641,7 +669,9 @@
   font-size: 50px;
   font-weight: 600;
 }
-.card-politaro,.card-politaro-2,.card-politrao-3{
+.card-politaro,
+.card-politaro-2,
+.card-politrao-3 {
   background-color: whitesmoke;
 }
 .card-politaro:hover {
@@ -657,27 +687,29 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: white;
 }
-.news-heading{
+.news-heading {
   font-size: 20px;
 }
-.card-politaro-2:hover{
-  background-image:linear-gradient(
-    0deg,
-    rgb(17, 22, 95),
-    rgba(20, 26, 90, 0.703) 50%
-  ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-4.jpg');
+.card-politaro-2:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgb(17, 22, 95),
+      rgba(20, 26, 90, 0.703) 50%
+    ),
+    url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: white;
 }
-.card-politrao-3:hover{
-  background-image:linear-gradient(
-    0deg,
-    rgb(17, 22, 95),
-    rgba(20, 26, 90, 0.703) 50%
-  ), url('https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-1.jpg');
+.card-politrao-3:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgb(17, 22, 95),
+      rgba(20, 26, 90, 0.703) 50%
+    ),
+    url("https://politaro.smartdemowp.com/wp-content/uploads/2020/03/blog-2-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -690,31 +722,31 @@
   border-radius: 5px;
 }
 .arrow-po:hover {
-  background-color:red;
+  background-color: red;
   color: white;
 }
 
 /* company icons  */
-.company-icons-margin-top{
+.company-icons-margin-top {
   margin-top: 80px;
 }
 
 /* signup foe newsletter  */
-.signup-bg{
+.signup-bg {
   background-color: #114f9a;
   margin-top: 80px;
 }
-.email-input{
+.email-input {
   border: none;
   outline: none;
   padding: 10px;
 
   width: 25rem;
 }
-.email-input::placeholder{
+.email-input::placeholder {
   color: rgb(130, 124, 124);
 }
-.subscribe-btn{
+.subscribe-btn {
   background-color: red;
   color: white;
   border: none;
@@ -722,56 +754,54 @@
   padding: 10px;
   width: 12rem;
 }
-.subscribe-btn:hover{
-  background-color:black;
+.subscribe-btn:hover {
+  background-color: black;
   color: white;
 }
 
 /* footer-1 politaro $9.1k  */
 
-.politaro-footer-1{
+.politaro-footer-1 {
   background-color: #061a33;
 }
 .footer-1-logo {
   width: 10rem;
 }
 
-
 /* footer-2  */
 
-.end{
- background-color: #061a33;
- border-top:5px solid #2b3c51;
-} 
-.footer-icons{
-  color:  #57697d;
+.end {
+  background-color: #061a33;
+  border-top: 5px solid #2b3c51;
+}
+.footer-icons {
+  color: #57697d;
   font-size: 25px;
   padding: 5px;
 }
-.footer-icons:hover{
+.footer-icons:hover {
   color: white;
 }
-.end-margin-top{
+.end-margin-top {
   padding-top: 20px;
   padding-bottom: 90px;
 }
 
-.end-dashed{
-  border-bottom:3.5px solid #2b3c51;
+.end-dashed {
+  border-bottom: 3.5px solid #2b3c51;
 }
-.end-profile{
+.end-profile {
   transition: margin-left 0.3s;
 }
 
-.end-profile:hover{
-margin-left: 10px;
-color: red;
+.end-profile:hover {
+  margin-left: 10px;
+  color: red;
 }
 
 /* 320px       111111111111111111111111111111111111111111111111111111111111111111111111111 */
 
-@media (min-width:10px) and (max-width:320px){
-
+@media (min-width: 10px) and (max-width: 320px) {
   /* header  */
   .heading {
     /* max-width: 40vw; */
@@ -803,256 +833,239 @@ color: red;
     height: 10rem;
     width: 100%;
   }
- 
+
   /* election  */
 
-.election-bg {
-  margin-top: 20rem;
+  .election-bg {
+    margin-top: 20rem;
+  }
+  .election-card-border {
+    /* padding: 50px; */
+    border-right: none;
+    /* border-bottom: 3px solid rgb(187, 185, 185); */
+  }
 
-}
-.election-card-border{
-  /* padding: 50px; */
-  border-right: none;
-  /* border-bottom: 3px solid rgb(187, 185, 185); */
-}
+  /* together  */
+  .together-card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
 
-/* together  */
-.together-card-grid{
-  display: grid;
-  grid-template-columns: 1fr;
- 
-  gap: 5px;
-}
-.together {
-  margin-top: 51rem;
-  max-width: 80%;
-}
+    gap: 5px;
+  }
+  .together {
+    margin-top: 51rem;
+    max-width: 80%;
+  }
 
-.font-together {
-  font-size: 35px;
-}
+  .font-together {
+    font-size: 35px;
+  }
 
-/* card  together*/
+  /* card  together*/
 
-.card-heading {
-  background-color: #245da2;
-  font-size: 20px;
-  font-weight: 600;
-}
-.card-icons {
-  font-size: 80px;
-  font-weight: 100;
-}
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
 
-.card-box {
-  background-color: #f4f4f4;
-  transition: margin-top 0.8s ease;
-  width: 90%;
-  color: rgb(215, 112, 71);
-  height: 80%;
- margin-top: 10px;
-}
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 90%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+    margin-top: 10px;
+  }
 
-/* donate-today  */
-.donate-today .donate-bg{
-  background: none;
-  /* max-width: 100vw; */
-  background-repeat: no-repeat;
-width: 100%;
-text-align: center;
-  /* margin-top: 150px; */
-}
-.donate-today {
-  background-color: #09274c;
-/* padding: 30px; */
-margin-top: 80px;
-}
-.donate-today-heading {
-  font-size: 30px;
-  font-weight: 700;
-}
-.donate {
- width: 100%;
-/* max-width: 1000px; */
-margin-left: 0px;
-  /* padding: 50px; */
-}
-.donate-box {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-}
-.donate-card {
-  border: 3px solid rgb(208, 206, 206);
-  color: white;
-}
-.donate-card:hover {
-  background-color: white;
-  color: black;
-}
-.donate-now-btn {
-  background-color: #e23e4e;
-  color: white;
-  width: 100%;
-  font-weight: 700;
-  font-size: 25px;
-}
+  /* donate-today  */
+  .donate-today .donate-bg {
+    background: none;
+    /* max-width: 100vw; */
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 150px; */
+  }
+  .donate-today {
+    background-color: #09274c;
+    /* padding: 30px; */
+    margin-top: 80px;
+  }
+  .donate-today-heading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .donate {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin-left: 0px;
+    /* padding: 50px; */
+  }
+  .donate-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .donate-card {
+    border: 3px solid rgb(208, 206, 206);
+    color: white;
+  }
+  .donate-card:hover {
+    background-color: white;
+    color: black;
+  }
+  .donate-now-btn {
+    background-color: #e23e4e;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 25px;
+  }
 
-.donate-now-btn:hover {
-  background-color: white;
-  color: black;
-}
+  .donate-now-btn:hover {
+    background-color: white;
+    color: black;
+  }
 
+  /* organized policies  */
 
+  .organized-margin-top {
+    margin-top: 50px;
+  }
+  .org-heading {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .navtabs {
+  }
+  .nav-link {
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  /* card-upcoming  */
+  .card-up-heading {
+    font-size: 18px;
+  }
 
-/* organized policies  */
+  /* in media  */
+  .media-margin-top {
+    margin-top: 100px;
+  }
+  .font-media-heading {
+    font-size: 50px;
+    font-weight: 600;
+  }
 
-.organized-margin-top {
-  margin-top: 50px;
-}
-.org-heading {
-  font-size: 45px;
-  font-weight: 600;
-}
-.navtabs{
+  .media-card-1 {
+    color: white;
+    background-color: #40acf4;
+  }
+  .media-card-heading-1 {
+    font-size: 20px;
+  }
 
+  .play-btn {
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 1;
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+    display: inline-block;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-}
-.nav-link{
-  margin-left: 50px;
-  font-size: 30px;
-}
-/* card-upcoming  */
-.card-up-heading{
-  font-size: 18px;
-}
+  /* campaign events  */
 
+  .date-mar {
+    background-color: #cd2828;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    bottom: 270px;
+    left: 40px;
+  }
 
+  /* contribute  */
+  .donate-btn {
+    border-radius: 5px;
+    background-color: #0d60a6;
+    width: 11rem;
+    height: 3.5rem;
+    color: white;
+  }
+  .contribute-heading {
+    font-size: 26.8px;
+  }
 
-/* in media  */
-.media-margin-top {
-  margin-top: 100px;
-}
-.font-media-heading {
-  font-size: 50px;
-  font-weight: 600;
-}
+  .become-btn {
+    border: 3px solid rgb(190, 186, 186);
+    border-radius: 5px;
+    background-color: black;
+    width: 14rem;
+    height: 3.5rem;
+    color: white;
+    margin-top: 20px;
+  }
 
-.media-card-1{
-  color: white;
-  background-color:#40acf4 ;
- 
-}
-.media-card-heading-1{
+  /* .politaro news  */
+  .news-heading {
+    font-size: 18px;
+  }
 
-  font-size: 20px;
-}
+  /* signup foe newsletter  */
 
-.play-btn{
-  width: 4.5rem;
-  height: 4.5rem;
- z-index: 1;
- position: absolute;
- left:7rem;
- top: 10rem;
- display: inline-block;
- background-color: red;
- display: flex;
- align-items: center;
- justify-content: center;
-}
+  .email-input {
+    border: none;
+    outline: none;
+    padding: 10px;
 
+    width: 100%;
+  }
+  .email-input::placeholder {
+    color: rgb(130, 124, 124);
+  }
+  .subscribe-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .subscribe-btn:hover {
+    background-color: black;
+    color: white;
+  }
 
+  /* footer-1 politaro $ 9 */
+  .politaro-center {
+    text-align: center;
+  }
 
-/* campaign events  */
+  /* footer-2  */
 
-
-.date-mar {
-  background-color: #cd2828;
-  color: white;
-  width: 70px;
-  height: 70px;
-  display: inline-block;
-  position: absolute;
-  bottom: 270px;
-  left: 40px;
-}
-
-/* contribute  */
-.donate-btn {
-  border-radius: 5px;
-  background-color: #0d60a6;
-  width: 11rem;
-  height: 3.5rem;
-  color: white;
-
-}
-.contribute-heading{
-  font-size: 26.8px;
-}
-
-.become-btn {
-  border: 3px solid rgb(190, 186, 186);
-  border-radius: 5px;
-  background-color: black;
-  width: 14rem;
-  height: 3.5rem;
-  color: white;
- margin-top: 20px;
-
-}
-
-/* .politaro news  */
-.news-heading{
-  font-size: 18px;
-}
-
-/* signup foe newsletter  */
-
-.email-input{
-  border: none;
-  outline: none;
-  padding: 10px;
-
-  width: 100%;
-}
-.email-input::placeholder{
-  color: rgb(130, 124, 124);
-}
-.subscribe-btn{
-  background-color: red;
-  color: white;
-  border: none;
-  outline: none;
-  padding: 10px;
-  width: 100%;
-  margin-top: 20px;
-}
-.subscribe-btn:hover{
-  background-color:black;
-  color: white;
-}
-
-/* footer-1 politaro $ 9 */
-.politaro-center{
- text-align: center;
-}
-
-/* footer-2  */
-
-.end-margin-top{
-  padding-top: 50px;
-  padding-bottom: 90px;
-}
-
+  .end-margin-top {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
 }
 
 /* 425px 222222222222222222222222222222222222222222222222222222222222222222222222 */
 
-@media (min-width:321px) and (max-width:576px){
-
+@media (min-width: 321px) and (max-width: 576px) {
   /* header  */
-
 
   .heading {
     /* max-width: 40vw; */
@@ -1072,256 +1085,35 @@ margin-left: 0px;
     border: none;
     place-items: center;
   }
- 
+
   /* election  */
 
-.election-bg {
-  margin-top: 20rem;
-}
-.election-card-border{
-  border-right: none;
-  /* border-bottom: 3px solid rgb(187, 185, 185); */
-}
-
-/* together  */
-.together-card-grid{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 5px;
-}
-
-.together {
-  margin-top: 50rem;
-  max-width: 80%;
-}
-
-.font-together {
-  font-size: 35px;
-}
-
-/* card  together*/
-
-.card-heading {
-  background-color: #245da2;
-  font-size: 20px;
-  font-weight: 600;
-}
-.card-icons {
-  font-size: 80px;
-  font-weight: 100;
-}
-
-.card-box {
-  background-color: #f4f4f4;
-  transition: margin-top 0.8s ease;
-  width: 90%;
-  color: rgb(215, 112, 71);
-  height: 80%;
- /* margin: 10px; */
- margin-top: 10px;
-}
-
-
-
-/* donate-today  */
-.donate-today .donate-bg{
-  background: none;
-  /* max-width: 100vw; */
-  background-repeat: no-repeat;
-width: 100%;
-text-align: center;
-  /* margin-top: 150px; */
-}
-.donate-today {
-  background-color: #09274c;
-padding: 0px;
-margin-top: 80px;
-}
-.donate-today-heading {
-  font-size: 30px;
-  font-weight: 700;
-}
-.donate {
- width: 100%;
-/* max-width: 1000px; */
-margin-left: 0px;
-  /* padding: 50px; */
-}
-.donate-box {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-}
-.donate-card {
-  border: 3px solid rgb(208, 206, 206);
-  color: white;
-}
-.donate-card:hover {
-  background-color: white;
-  color: black;
-}
-.donate-now-btn {
-  background-color: #e23e4e;
-  color: white;
-  width: 100%;
-  font-weight: 700;
-  font-size: 25px;
-}
-
-.donate-now-btn:hover {
-  background-color: white;
-  color: black;
-}
-
-/* organized policies  */
-
-.organized-margin-top {
-  margin-top: 50px;
-}
-.org-heading {
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.nav-link{
- 
-  font-size: 30px;
-}
-/* in media  */
-.media-margin-top {
-  margin-top: 100px;
-}
-.font-media-heading {
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.media-card-1{
-  color: white;
-  background-color:#40acf4 ;
- 
-}
-.media-card-heading-1{
-
-  font-size: 25px;
-}
-
-/* contribute  */
-.donate-btn {
-  border-radius: 5px;
-  background-color: #0d60a6;
-  width: 11rem;
-  height: 3.5rem;
-  color: white;
-
-}
-.contribute-heading{
-  font-size: 35px;
-}
-
-.become-btn {
-  border: 3px solid rgb(190, 186, 186);
-  border-radius: 5px;
-  background-color: black;
-  width: 14rem;
-  height: 3.5rem;
-  color: white;
- margin-top: 30px;
-
-}
-/* .politaro news  */
-.news-heading{
-  font-size: 24px;
-}
-/* signup foe newsletter  */
-
-.email-input{
-  border: none;
-  outline: none;
-  padding: 10px;
-
-  width: 100%;
-}
-.email-input::placeholder{
-  color: rgb(130, 124, 124);
-}
-.subscribe-btn{
-  background-color: red;
-  color: white;
-  border: none;
-  outline: none;
-  padding: 10px;
-  width: 100%;
-  margin-top: 20px;
-}
-.subscribe-btn:hover{
-  background-color:black;
-  color: white;
-}
-/* .politaro $ 9 */
-.politaro-center{
-  text-align: center;
- }
-
-
-}
-
-/* 768 3333333333333333333333333333333333333333333333333333333 */
-@media (min-width:576px) and (max-width:770px){
-
-    /* header  */
-    .heading {
-      /* max-width: 40vw; */
-      margin-top: 10%;
-    }
-    .header-heading {
-      font-size: 50px;
-      font-weight: 700;
-      color: white;
-      margin-top: 20px;
-    }
-    .input-container {
-      display: flex;
-      width: 50%;
-      margin-bottom: 15px;
-      outline: none;
-      border: none;
-      place-items: center;
-    }
-   
-  
-    /* election  */
-    .election-bg {
-      margin-top: 5rem;
-    }
-  .election-card-border{
-    border-bottom: none;
-    border-right: 3px solid rgb(187, 185, 185);
-  
+  .election-bg {
+    margin-top: 20rem;
   }
-  .election-margin{
-    /* height: 100px; */
-    margin-top: 20px;
+  .election-card-border {
+    border-right: none;
+    /* border-bottom: 3px solid rgb(187, 185, 185); */
   }
 
   /* together  */
-  .together-card-grid{
+  .together-card-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 5px;
   }
-  
+
   .together {
-    margin-top: 20rem;
+    margin-top: 50rem;
     max-width: 80%;
   }
-  
+
   .font-together {
     font-size: 35px;
   }
-  
+
   /* card  together*/
-  
+
   .card-heading {
     background-color: #245da2;
     font-size: 20px;
@@ -1331,170 +1123,155 @@ margin-left: 0px;
     font-size: 80px;
     font-weight: 100;
   }
-  
+
   .card-box {
     background-color: #f4f4f4;
     transition: margin-top 0.8s ease;
-    width: 100%;
+    width: 90%;
     color: rgb(215, 112, 71);
     height: 80%;
-   /* margin: 10px; */
-   margin-top: 10px;
+    /* margin: 10px; */
+    margin-top: 10px;
   }
 
-/* donate-today  */
-.donate-today .donate-bg{
-  background: none;
-  /* max-width: 100vw; */
-  background-repeat: no-repeat;
-width: 100%;
-text-align: center;
-  /* margin-top: 150px; */
-}
-.donate-today {
-  background-color: #09274c;
-padding: 0px;
-margin-top: 80px;
-}
-.donate-today-heading {
-  font-size: 40px;
-  font-weight: 700;
-}
-.donate {
- width: 100%;
-/* max-width: 1000px; */
-margin-left: 0px;
-  /* padding: 50px; */
-}
-.donate-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-.donate-card {
-  border: 3px solid rgb(208, 206, 206);
-  color: white;
-}
-.donate-card:hover {
-  background-color: white;
-  color: black;
-}
-.donate-now-btn {
-  background-color: #e23e4e;
-  color: white;
-  width: 100%;
-  font-weight: 700;
-  font-size: 25px;
-}
-
-.donate-now-btn:hover {
-  background-color: white;
-  color: black;
-}
-/* organized policies  */
-
-.organized-margin-top {
-  margin-top: 50px;
-}
-.org-heading {
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.nav-link{
- 
-  font-size: 25px;
-  
-}
-
-/* in media  */
-.media-margin-top {
-  margin-top: 100px;
-}
-.font-media-heading {
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.media-card-1{
-  color: white;
-  background-color:#40acf4 ;
-height: 11rem;
-;
-}
-.media-card-3{
-  background-color:#0d60a6;
- height: 10.3rem;
- padding-top: 10px;
- padding-left: 20px;
-
-}
-.media-card-4 img:hover{
-  /* background-color: rgba(138, 119, 119, 0.8); */
-  /* background: rgba(black, 0.5); */
-}
-.media-part-2-margin{
-  margin-top: 70px;
-}
-.media-card-heading-1{
-  font-size: 10px;
-}
-.media-card-2{
-  background-color:#302e2f;
-}
-.media-card-2:hover img{
-  opacity: 0.5;
- 
-}
-.media-card-4{
-  position: relative;
-}
-.play-btn{
-  width: 4.5rem;
-  height: 4.5rem;
- z-index: 1;
- position: absolute;
- left:5rem;
- top: 10rem;
- display: inline-block;
- background-color: red;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-/* campaign events  */
-.date-mar {
-  background-color: #cd2828;
-  color: white;
-  width: 65px;
-  height: 65px;
-  display: inline-block;
-  position: absolute;
-  bottom: 380px;
-  left: 30px;
-}
-
-/* contribute  */
-.contribute-heading{
-  font-size: 35px;
-}
-/* .politaro news  */
-.news-heading{
-  font-size: 18.6px;
-}
-
-/* .politaro $ 9 */
-.politaro-center{
-  text-align: center;
- }
+  /* donate-today  */
+  .donate-today .donate-bg {
+    background: none;
+    /* max-width: 100vw; */
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 150px; */
+  }
+  .donate-today {
+    background-color: #09274c;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  .donate-today-heading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .donate {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin-left: 0px;
+    /* padding: 50px; */
+  }
+  .donate-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .donate-card {
+    border: 3px solid rgb(208, 206, 206);
+    color: white;
+  }
+  .donate-card:hover {
+    background-color: white;
+    color: black;
+  }
+  .donate-now-btn {
+    background-color: #e23e4e;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 25px;
   }
 
+  .donate-now-btn:hover {
+    background-color: white;
+    color: black;
+  }
 
-  /* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
-  
-@media (min-width:771px) and (max-width:1030px){
+  /* organized policies  */
 
+  .organized-margin-top {
+    margin-top: 50px;
+  }
+  .org-heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .nav-link {
+    font-size: 30px;
+  }
+  /* in media  */
+  .media-margin-top {
+    margin-top: 100px;
+  }
+  .font-media-heading {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .media-card-1 {
+    color: white;
+    background-color: #40acf4;
+  }
+  .media-card-heading-1 {
+    font-size: 25px;
+  }
+
+  /* contribute  */
+  .donate-btn {
+    border-radius: 5px;
+    background-color: #0d60a6;
+    width: 11rem;
+    height: 3.5rem;
+    color: white;
+  }
+  .contribute-heading {
+    font-size: 35px;
+  }
+
+  .become-btn {
+    border: 3px solid rgb(190, 186, 186);
+    border-radius: 5px;
+    background-color: black;
+    width: 14rem;
+    height: 3.5rem;
+    color: white;
+    margin-top: 30px;
+  }
+  /* .politaro news  */
+  .news-heading {
+    font-size: 24px;
+  }
+  /* signup foe newsletter  */
+
+  .email-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+
+    width: 100%;
+  }
+  .email-input::placeholder {
+    color: rgb(130, 124, 124);
+  }
+  .subscribe-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .subscribe-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  /* .politaro $ 9 */
+  .politaro-center {
+    text-align: center;
+  }
+}
+
+/* 768 3333333333333333333333333333333333333333333333333333333 */
+@media (min-width: 576px) and (max-width: 770px) {
   /* header  */
   .heading {
     /* max-width: 40vw; */
@@ -1514,240 +1291,440 @@ height: 11rem;
     border: none;
     place-items: center;
   }
- 
 
   /* election  */
-  
-.election-card-border{
-  border-bottom: none;
-  border-right: 3px solid rgb(187, 185, 185);
+  .election-bg {
+    margin-top: 5rem;
+  }
+  .election-card-border {
+    border-bottom: none;
+    border-right: 3px solid rgb(187, 185, 185);
+  }
+  .election-margin {
+    /* height: 100px; */
+    margin-top: 20px;
+  }
 
-}
-.election-margin{
-  margin-top: 30px;
-}
+  /* together  */
+  .together-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
 
+  .together {
+    margin-top: 20rem;
+    max-width: 80%;
+  }
 
-/* together  */
-.together-card-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 5px;
-}
+  .font-together {
+    font-size: 35px;
+  }
 
-.together {
-  margin-top: 14rem;
-  max-width: 80%;
-}
+  /* card  together*/
 
-.font-together {
-  font-size: 35px;
-}
-.together-text{
-  font-size: 14px;
-}
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
 
-/* card  together*/
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 100%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+    /* margin: 10px; */
+    margin-top: 10px;
+  }
 
-.card-heading {
-  background-color: #245da2;
-  font-size: 20px;
-  font-weight: 600;
-}
-.card-icons {
-  font-size: 80px;
-  font-weight: 100;
-}
+  /* donate-today  */
+  .donate-today .donate-bg {
+    background: none;
+    /* max-width: 100vw; */
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 150px; */
+  }
+  .donate-today {
+    background-color: #09274c;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  .donate-today-heading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .donate {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin-left: 0px;
+    /* padding: 50px; */
+  }
+  .donate-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .donate-card {
+    border: 3px solid rgb(208, 206, 206);
+    color: white;
+  }
+  .donate-card:hover {
+    background-color: white;
+    color: black;
+  }
+  .donate-now-btn {
+    background-color: #e23e4e;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 25px;
+  }
 
-.card-box {
-  background-color: #f4f4f4;
-  transition: margin-top 0.8s ease;
-  width: 100%;
-  color: rgb(215, 112, 71);
-  height: 80%;
- /* margin: 10px; */
- margin-top: 0px;
-}
+  .donate-now-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  /* organized policies  */
 
-/* donate-today  */
-.donate-today .donate-bg{
-  background: none;
-  /* max-width: 100vw; */
-  background-repeat: no-repeat;
-width: 100%;
+  .organized-margin-top {
+    margin-top: 50px;
+  }
+  .org-heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
 
-  /* margin-top: 150px; */
-}
-.donate-today {
-  background-color: #09274c;
-padding: 0px;
-margin-top: 80px;
-}
-.donate-today-heading {
-  font-size: 40px;
-  font-weight: 700;
-}
-.donate {
- /* width: 50%; */
-/* max-width: 1000px; */
-margin-left: 0px;
-width:100%;
-  /* padding: 50px; */
-}
-.donate-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
-  
-  gap: 10px;
-}
-.donate-card {
-  border: 3px solid rgb(208, 206, 206);
-  color: white;
-}
+  .nav-link {
+    font-size: 25px;
+  }
 
-.donate-card:hover {
-  background-color: white;
-  color: black;
-}
-.donate-now-btn {
-  background-color: #e23e4e;
-  color: white;
-  width: 100%;
-  font-weight: 700;
-  font-size: 25px;
-}
+  /* in media  */
+  .media-margin-top {
+    margin-top: 100px;
+  }
+  .font-media-heading {
+    font-size: 50px;
+    font-weight: 600;
+  }
 
-.donate-now-btn:hover {
-  background-color: white;
-  color: black;
-}
+  .media-card-1 {
+    color: white;
+    background-color: #40acf4;
+    height: 11rem;
+  }
+  .media-card-3 {
+    background-color: #0d60a6;
+    height: 10.3rem;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .media-card-4 img:hover {
+    /* background-color: rgba(138, 119, 119, 0.8); */
+    /* background: rgba(black, 0.5); */
+  }
+  .media-part-2-margin {
+    margin-top: 70px;
+  }
+  .media-card-heading-1 {
+    font-size: 10px;
+  }
+  .media-card-2 {
+    background-color: #302e2f;
+  }
+  .media-card-2:hover img {
+    opacity: 0.5;
+  }
+  .media-card-4 {
+    position: relative;
+  }
+  .play-btn {
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 1;
+    position: absolute;
+    left: 5rem;
+    top: 10rem;
+    display: inline-block;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-/* organized policies  */
+  /* campaign events  */
+  .date-mar {
+    background-color: #cd2828;
+    color: white;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    position: absolute;
+    bottom: 380px;
+    left: 30px;
+  }
 
-.organized-margin-top {
-  margin-top: 50px;
-}
-.org-heading {
-  font-size: 30px;
-  font-weight: 600;
-}
+  /* contribute  */
+  .contribute-heading {
+    font-size: 35px;
+  }
+  /* .politaro news  */
+  .news-heading {
+    font-size: 18.6px;
+  }
 
-.nav-link{
- 
-  font-size: 20px;
-  
-}
-/* card-upcoming  */
-.card-up-heading{
-  /* font-size: 2px; */
-}
-
-
-/* in media  */
-.media-margin-top {
-  margin-top: 100px;
-}
-.font-media-heading {
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.media-card-1{
-  color: white;
-  background-color:#40acf4 ;
-height: 14rem;
-;
-}
-.media-card-3{
-  background-color:#0d60a6;
- height: 14.5rem;
- padding-top: 30px;
- padding-left: 20px;
-
-}
-.media-part-2-margin{
-  margin-top: 70px;
-}
-.media-card-heading-1{
-  font-size: 15px;
-}
-.media-card-2{
-  background-color:#302e2f;
-}
-.media-card-2:hover img{
-  opacity: 0.5;
- 
-}
-.media-card-4{
-  position: relative;
-}
-.play-btn{
-  width: 4.5rem;
-  height: 4.5rem;
- z-index: 1;
- position: absolute;
- left:8rem;
- top: 10rem;
- display: inline-block;
- background-color: red;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-/* campaign events  */
-.date-mar {
-  background-color: #cd2828;
-  color: white;
-  width: 65px;
-  height: 65px;
-  display: inline-block;
-  position: absolute;
-  bottom: 280px;
-  left: 30px;
-}
-
-/* contribute  */
-.contribute-heading{
-  font-size: 28px;
+  /* .politaro $ 9 */
+  .politaro-center {
+    text-align: center;
+  }
 }
 
-/* .politaro news  */
-.news-heading{
-  font-size: 18.6px;
+/* 1024 444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+
+@media (min-width: 771px) and (max-width: 1030px) {
+  /* header  */
+  .heading {
+    /* max-width: 40vw; */
+    margin-top: 10%;
+  }
+  .header-heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+  }
+  .input-container {
+    display: flex;
+    width: 50%;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    place-items: center;
+  }
+
+  /* election  */
+
+  .election-card-border {
+    border-bottom: none;
+    border-right: 3px solid rgb(187, 185, 185);
+  }
+  .election-margin {
+    margin-top: 30px;
+  }
+
+  /* together  */
+  .together-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .together {
+    margin-top: 14rem;
+    max-width: 80%;
+  }
+
+  .font-together {
+    font-size: 35px;
+  }
+  .together-text {
+    font-size: 14px;
+  }
+
+  /* card  together*/
+
+  .card-heading {
+    background-color: #245da2;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-icons {
+    font-size: 80px;
+    font-weight: 100;
+  }
+
+  .card-box {
+    background-color: #f4f4f4;
+    transition: margin-top 0.8s ease;
+    width: 100%;
+    color: rgb(215, 112, 71);
+    height: 80%;
+    /* margin: 10px; */
+    margin-top: 0px;
+  }
+
+  /* donate-today  */
+  .donate-today .donate-bg {
+    background: none;
+    /* max-width: 100vw; */
+    background-repeat: no-repeat;
+    width: 100%;
+
+    /* margin-top: 150px; */
+  }
+  .donate-today {
+    background-color: #09274c;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  .donate-today-heading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .donate {
+    /* width: 50%; */
+    /* max-width: 1000px; */
+    margin-left: 0px;
+    width: 100%;
+    /* padding: 50px; */
+  }
+  .donate-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 10px;
+  }
+  .donate-card {
+    border: 3px solid rgb(208, 206, 206);
+    color: white;
+  }
+
+  .donate-card:hover {
+    background-color: white;
+    color: black;
+  }
+  .donate-now-btn {
+    background-color: #e23e4e;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .donate-now-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* organized policies  */
+
+  .organized-margin-top {
+    margin-top: 50px;
+  }
+  .org-heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+  /* card-upcoming  */
+  .card-up-heading {
+    /* font-size: 2px; */
+  }
+
+  /* in media  */
+  .media-margin-top {
+    margin-top: 100px;
+  }
+  .font-media-heading {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .media-card-1 {
+    color: white;
+    background-color: #40acf4;
+    height: 14rem;
+  }
+  .media-card-3 {
+    background-color: #0d60a6;
+    height: 14.5rem;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .media-part-2-margin {
+    margin-top: 70px;
+  }
+  .media-card-heading-1 {
+    font-size: 15px;
+  }
+  .media-card-2 {
+    background-color: #302e2f;
+  }
+  .media-card-2:hover img {
+    opacity: 0.5;
+  }
+  .media-card-4 {
+    position: relative;
+  }
+  .play-btn {
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 1;
+    position: absolute;
+    left: 8rem;
+    top: 10rem;
+    display: inline-block;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* campaign events  */
+  .date-mar {
+    background-color: #cd2828;
+    color: white;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    position: absolute;
+    bottom: 280px;
+    left: 30px;
+  }
+
+  /* contribute  */
+  .contribute-heading {
+    font-size: 28px;
+  }
+
+  /* .politaro news  */
+  .news-heading {
+    font-size: 18.6px;
+  }
+
+  /* signup foe newsletter  */
+
+  .email-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+
+    width: 60%;
+  }
+  .email-input::placeholder {
+    color: rgb(130, 124, 124);
+  }
+  .subscribe-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 35%;
+    margin-top: 20px;
+  }
+  .subscribe-btn:hover {
+    background-color: black;
+    color: white;
+  }
 }
-
-/* signup foe newsletter  */
-
-.email-input{
-  border: none;
-  outline: none;
-  padding: 10px;
-
-  width: 60%;
-}
-.email-input::placeholder{
-  color: rgb(130, 124, 124);
-}
-.subscribe-btn{
-  background-color: red;
-  color: white;
-  border: none;
-  outline: none;
-  padding: 10px;
-  width: 35%;
-  margin-top: 20px;
-}
-.subscribe-btn:hover{
-  background-color:black;
-  color: white;
-}
-
-
-
-
-
-
-}
-
-
