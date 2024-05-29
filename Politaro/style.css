@@ -659,6 +659,14 @@
 .stars {
   display: inline-block;
 }
+.arrow-po1 {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.arrow-po1:hover {
+  background-color: red;
+  color: white;
+}
 
 /* politaro in news  */
 
